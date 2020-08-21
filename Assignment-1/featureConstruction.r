@@ -159,16 +159,15 @@ betas.byfinger <- lapply(
   unique(data$fingerprint),
   function(x){
     temp <- data[grepl(x, data$fingerprint), "angle"]
-    M <- matrix(nrow = length(temp), ncol = ncol(nnids.byfinger[[x]]) * 2)
+    M <- matrix(nrow = length(temp), ncol = ncol(nnids.byfinger[[x]]))
     for(i in 1:length(temp)){
       neighbors <- nnids.byfinger[[x]][i, ]
       angles <- c()
       for(j in neighbors){
         if(is.na(j)){
-          angles <- append(angles, c(NA, NA))
+          angles <- append(angles, NA)
         } else{
           angles <- append(angles, ad2pi(temp[i], temp[j]))
-          angles <- append(angles, ad2pi(temp[j], temp[i]))
         }
       }
       M[i, ] <- angles
@@ -179,16 +178,14 @@ betas.byfinger <- lapply(
 names(betas.byfinger) <- unique(data$fingerprint)
 betas.byfinger <- do.call(rbind, betas.byfinger)
 data <- cbind.data.frame(data, betas.byfinger)
-colnames(data)[67:ncol(data)] <- c(rbind(paste0("beta", 0:(n.neighbors - 1)), paste0("beta", 0:(n.neighbors - 1), "r")))
+colnames(data)[67:ncol(data)] <- paste0("beta", 0:(n.neighbors - 1))
 
 ## checkpoint
 write.csv(data, "crossedData_v3.csv")
 
 ## final format
-cols <- which(grepl("fingerprint", colnames(data)))
-cols <- append(cols, which(grepl("minutia", colnames(data))))
 # accumulated number of nns at different radi (absolute)
-cols <- append(cols, which(grepl("r[[:digit:]]", colnames(data))))
+cols <- which(grepl("r[[:digit:]]", colnames(data)))
 # differences in the number of accumulated number of nns between radi (relative)
 cols <- append(cols, which(grepl("l[[:digit:]]", colnames(data))))
 # eucledian distance to nns (absolute)
@@ -203,5 +200,5 @@ data <- data[, cols]
 # discreticize the target variable
 score <- factor(sapply(data$score_change, function(x) if(x < 0) "0" else "1"))
 data$score_change <- score
-save(data, file = "final_dataset.RData")
+save(data, file = "final_dataset_v1.RData")
 write.csv(data, "final_dataset_v1.csv", row.names = FALSE)
