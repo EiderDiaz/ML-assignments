@@ -1,4 +1,6 @@
-function [v, best] = vic(D, psi, omega, k, RNG)
+% Validity Index using supervised Classifiers
+% This version uses an averaged AUC computed with perfcurve()
+function [v, best] = vic_alt(D, psi, omega, k, RNG)
 % Execute the clustering algorithm on the dataset
 P = omega(D);
 
@@ -8,12 +10,12 @@ fold_indxs = crossvalind('Kfold', size(D, 1), k);
 
 % initialize best AUC seen for all classifiers
 v = 0;
+best = 1;
 
 % for each classifier
 for i = 1:length(psi)
     % initialize cross validation average AUC and best classifier seen
     v_current = 0;
-    best = i;
     
     % for each fold of cross validation
     for j = 1:k
@@ -31,13 +33,18 @@ for i = 1:length(psi)
                 [~, ~ , ~, tmp] = perfcurve(P(test), probs(:, c), c); % AUC
                 AUC = AUC + tmp;
             end
-        else
-            [~, ~ , ~, AUC] = perfcurve(P(test), probs(:, 1), 1);
-            v_current = vcurrent + AUC;
+            v_current = v_current + (AUC / nclasses); % multiclass AUC mean
+        else % binary problem
+            [~, ~ , ~, AUC] = perfcurve(P(test), probs(:, 1), 1); % AUC
+            v_current = v_current + AUC;
         end    
     end
+    
+    % final AUC for current classifier is the average of all cross valids
     v_current = v_current / k;
-    if v_current > v
+    
+    % check if current classifier is the best seen so far
+    if v_current > v % update best AUC seen and index of best classifier
         v = v_current;
         best = i;
     end
