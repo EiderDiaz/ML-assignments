@@ -21,8 +21,8 @@ for i = 1:n
     v_current = 0;
     
     parfor (j = 1:k, cores)
-        model = clsi(train_Xs{j}, train_Ys{j});
         rng(i * j + RNG);
+        model = clsi(train_Xs{j}, train_Ys{j});
         pred = predict(model, test_Xs{j});
         
         if iscell(pred)
@@ -46,12 +46,10 @@ for i = 1:n
         v_current = v_current + AUC;
     end
     
-    % final AUC for current classifier is the average of all cross valids
     v_current = v_current / k;
     details(i) = v_current;
     
-    % check if current classifier is the best seen so far
-    if v_current > v % update best AUC seen and index of best classifier
+    if v_current > v
         v = v_current;
         best = i;
     end
