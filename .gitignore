@@ -1,0 +1,10 @@
+*.egg-info
+__pychache__
+*.pyc
+.ipynb_checkpoints
+.idea
+
+###ignore the data folder
+.DS_Store
+.DS_Store?
+
