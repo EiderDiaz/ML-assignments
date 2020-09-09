@@ -1,6 +1,8 @@
 ---
 title: "boxplots_AUC"
 output: html_document
+editor_options: 
+  chunk_output_type: console
 ---
 
 ```{r setup, include=FALSE}
@@ -15,9 +17,7 @@ library(ggrepel)
 
 
 ```{r}
-
-
-AUCs_binary <- read.csv("~/GitHub/ML-assignments/assignment2/AUCs_binary.csv")
+AUCs_binary <- read.csv("~/GitHub/ML-assignments/assignment2/AUCs_three.csv")
 meltAUCs_binary <- melt(AUCs_binary)
 meltAUCs_binary <- cbind(label=rep(seq(1,50),7),meltAUCs_binary)
 glimpse(meltAUCs_binary)
@@ -27,16 +27,8 @@ summary(meltAUCs_binary)
 
 
 ```{r }
-#quantiles<- as.data.frame(sapply(unique(meltAUCs_binary$variable),
-#  function(x){
-#       temp<- meltAUCs_binary %>% 
-#          filter(variable==x)
-#       
-#        quantile(temp$value)
-#  }))
-#
-classifier <- unique(meltAUCs_binary$variable)
 
+classifier <- unique(meltAUCs_binary$variable)
 
 quantiles <- apply(AUCs_binary, 2, 
                    function(x){
@@ -45,6 +37,7 @@ quantiles <- apply(AUCs_binary, 2,
 })
 names(quantiles) <-classifier
 
+#set labels to "_" when its value is greater than 3dr quantile
 labels<- sapply(1:nrow(meltAUCs_binary), 
                 function(i){
                   temp <-  meltAUCs_binary$variable[i]
@@ -60,7 +53,6 @@ labels<- sapply(1:nrow(meltAUCs_binary),
   
 meltAUCs_binary <- cbind(meltAUCs_binary,plabel=labels)
 
-summary(meltAUCs_binary)
 
  ggplot(meltAUCs_binary,aes(x=variable,y=value, fill = variable))+
   geom_boxplot()+
