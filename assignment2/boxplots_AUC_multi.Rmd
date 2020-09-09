@@ -20,6 +20,7 @@ library(ggrepel)
 AUCs_binary <- read.csv("~/GitHub/ML-assignments/assignment2/AUCs_three.csv")
 meltAUCs_binary <- melt(AUCs_binary)
 meltAUCs_binary <- cbind(label=rep(seq(1,50),7),meltAUCs_binary)
+colnames(meltAUCs_binary) <- c("label","Model","AUC")  
 glimpse(meltAUCs_binary)
 summary(meltAUCs_binary)
 ```
@@ -28,7 +29,7 @@ summary(meltAUCs_binary)
 
 ```{r }
 
-classifier <- unique(meltAUCs_binary$variable)
+classifier <- unique(meltAUCs_binary$Model)
 
 quantiles <- apply(AUCs_binary, 2, 
                    function(x){
@@ -40,8 +41,8 @@ names(quantiles) <-classifier
 #set labels to "_" when its value is greater than 3dr quantile
 labels<- sapply(1:nrow(meltAUCs_binary), 
                 function(i){
-                  temp <-  meltAUCs_binary$variable[i]
-                  if (meltAUCs_binary$value[i] >= quantiles[temp]){
+                  temp <-  meltAUCs_binary$Model[i]
+                  if (meltAUCs_binary$AUC[i] >= quantiles[temp]){
                     meltAUCs_binary$label[i]
                   }
                   else{
@@ -54,15 +55,15 @@ labels<- sapply(1:nrow(meltAUCs_binary),
 meltAUCs_binary <- cbind(meltAUCs_binary,plabel=labels)
 
 
- ggplot(meltAUCs_binary,aes(x=variable,y=value, fill = variable))+
+ ggplot(meltAUCs_binary,aes(x=Model,y=AUC, fill = Model))+
   geom_boxplot()+
    geom_label_repel(
-    label.size = 0,
     label.padding = unit(0.15, "lines"),
       data=meltAUCs_binary %>% 
       filter(plabel!="_"), # 0.7161 is the 3rd quartile
    aes(label=label)) +
-   theme_minimal()  
+   theme_minimal() 
+
 
 
 ```
