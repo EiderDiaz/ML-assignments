@@ -3,6 +3,7 @@ import re
 
 runs_dir = os.curdir + '/runs/'
 output_filename = os.curdir + '/results.csv'
+os.remove(output_filename)
 
 def getTopPatters(patterns, num = 4):
     top = sorted(patterns, key=lambda x: x[1], reverse=True)
