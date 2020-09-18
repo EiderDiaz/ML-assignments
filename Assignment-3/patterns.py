@@ -2,7 +2,7 @@ import os
 import re
 
 runs_dir = os.curdir + '/runs/'
-output_filename = os.curdir + 'results.csv'
+output_filename = os.curdir + '/results.csv'
 
 def getTopPatters(patterns, num = 4):
     top = sorted(patterns, key=lambda x: x[1], reverse=True)
@@ -34,6 +34,7 @@ def main(all_files = True, single_file = '', threshold = 0.3):
                     patterns.add((pattern, difference))
         
         top_patterns = getTopPatters(patterns)
+
         for p in top_patterns:
             info_string = '{},{},{}\n'.format(filename, p[0], p[1])
 
