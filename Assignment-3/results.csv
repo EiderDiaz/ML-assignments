@@ -1,45 +1,65 @@
 File,Pattern,Score
-10 Random features.txt,h5Index > 172.50 AND cit2018 > 38284.00 AND citPP2018 > 4.25 AND pubPA2016 > 0.95,0.36
-10 Random features.txt,pub2017 > 7940.00 AND citPA2017 > 9.68,0.35
-10 Random features.txt,cit2016 > 107650.00 AND intCol2016 > 37.45 AND h5Index > 165.00,0.34
-10 Random features.txt,pub2018 > 8184.50 AND citPA2017 > 9.68,0.34
+Number of trees.txt,citPA2016 > 14.79 AND cit2016 > 117378.00 AND pubTCP2018 > 19.10 AND pubPA2016 > 0.95,0.4
+Number of trees.txt,citPA2016 > 14.79 AND cit2018 > 31738.50 AND pubPA2018 > 0.98 AND citPP2017 > 8.65 AND h5Index > 165.00,0.39
+Number of trees.txt,pub2017 > 7940.00 AND pubTCP2017 > 21.50 AND pubPA2016 > 0.95,0.37
+Number of trees.txt,citPP2018 > 4.05 AND cit2016 > 117378.00 AND citPA2017 > 9.69,0.36
+ClassifierAttributeEval AttrSel.txt,citPA2016 > 14.79 AND cit2016 > 117378.00 AND pubTCP2018 > 19.10 AND pubPA2016 > 0.95,0.4
+ClassifierAttributeEval AttrSel.txt,citPA2016 > 14.79 AND cit2018 > 31738.50 AND pubPA2018 > 0.98 AND citPP2017 > 8.65 AND h5Index > 165.00,0.39
+ClassifierAttributeEval AttrSel.txt,pub2017 > 7940.00 AND pubTCP2017 > 21.50 AND pubPA2016 > 0.95,0.37
+ClassifierAttributeEval AttrSel.txt,citPP2018 > 4.05 AND cit2016 > 117378.00 AND citPA2017 > 9.69,0.36
+5 Minimum object by leaf.txt,h5Index > 172.50 AND pub2018 > 7036.50 AND citPP2018 > 4.25 AND pubPA2018 > 0.98,0.35
+5 Minimum object by leaf.txt,pubTJP2018 > 38.70 AND cit2016 > 117378.00 AND intCol2016 > 35.70,0.35
+5 Minimum object by leaf.txt,citPA2017 > 10.10 AND cit2017 > 79138.00,0.35
+5 Minimum object by leaf.txt,pub2017 > 7940.00 AND citPA2017 > 9.68,0.35
+4 Minimum object by leaf.txt,cit2018 > 35720.00 AND pubPA2016 > 0.95 AND pubTCP2017 > 21.50 AND pub2016 > 7472.50,0.37
+4 Minimum object by leaf.txt,pub2016 > 7543.00 AND citPP2017 > 8.65 AND intCol2018 > 36.45,0.37
+4 Minimum object by leaf.txt,pubTCP2016 > 13.65 AND intCol2016 > 35.70 AND cit2016 > 117378.00,0.37
+4 Minimum object by leaf.txt,citPA2016 > 14.79 AND cit2018 > 31738.50 AND intCol2016 > 35.55 AND cit2016 > 117378.00,0.36
+5 Random features.txt,pub2016 > 7543.00 AND citPP2017 > 8.65 AND intCol2018 > 36.45,0.37
+5 Random features.txt,pub2016 > 7543.00 AND fwCitImp2016 > 1.94 AND pubPA2017 > 0.97,0.36
+5 Random features.txt,pubTCP2018 > 19.45 AND cit2016 > 117378.00 AND intCol2018 > 36.45,0.36
+5 Random features.txt,fwCitImp2016 > 1.94 AND cit2016 > 117378.00 AND pubPA2018 > 0.98,0.36
 15 Random features.txt,pub2017 > 7940.00 AND citPA2017 > 9.68,0.35
-15 Random features.txt,pub2016 > 7543.00 AND citPA2017 > 9.68,0.34
+15 Random features.txt,intCol2016 > 37.45 AND cit2016 > 117378.00,0.34
 15 Random features.txt,cit2016 > 107650.00 AND intCol2016 > 37.45 AND h5Index > 165.00,0.34
-15 Random features.txt,pub2018 > 8184.50 AND citPA2017 > 9.68,0.34
-2 Depth of trees.txt,cit2016 > 107650.00,0.48000000000000004
-2 Depth of trees.txt,cit2017 > 75794.50,0.46
-2 Depth of trees.txt,cit2018 > 35720.00,0.45
-2 Depth of trees.txt,pub2016 > 7543.00,0.44
+15 Random features.txt,pub2016 > 7543.00 AND citPA2017 > 9.68,0.34
 20 RandomSubSpace.txt,citPA2016 > 14.79 AND cit2016 > 117378.00 AND pubTCP2018 > 19.10 AND pubPA2016 > 0.95,0.4
 20 RandomSubSpace.txt,citPA2016 > 14.79 AND cit2018 > 31738.50 AND pubPA2018 > 0.98 AND citPP2017 > 8.65 AND h5Index > 165.00,0.39
 20 RandomSubSpace.txt,pub2017 > 7940.00 AND pubTCP2017 > 21.50 AND pubPA2016 > 0.95,0.37
-20 RandomSubSpace.txt,h5Index > 172.50 AND cit2016 > 115133.00 AND citPP2018 > 4.25 AND pubPA2016 > 0.95,0.36
-3 Depth of trees.txt,cit2016 > 107650.00 AND citPP2017 > 6.40,0.49000000000000005
-3 Depth of trees.txt,cit2016 > 107650.00 AND pubTCP2018 > 12.85,0.49000000000000005
-3 Depth of trees.txt,cit2016 > 107650.00 AND pubTCP2017 > 13.90,0.49000000000000005
-3 Depth of trees.txt,cit2016 > 107650.00 AND pubTJP2017 > 30.15,0.49000000000000005
+20 RandomSubSpace.txt,citPP2018 > 4.05 AND cit2016 > 117378.00 AND citPA2017 > 9.69,0.36
+4 Depth of trees.txt,authors2017 > 7050.50 AND acaCol2016 > 2.20 AND cit2016 > 107115.50,0.48000000000000004
+4 Depth of trees.txt,authors2016 > 6535.50 AND cit2016 > 107115.50 AND acaCol2018 > 2.20,0.48000000000000004
+4 Depth of trees.txt,authors2017 > 7050.50 AND cit2016 > 107115.50 AND pubTJP2018 > 28.10,0.48000000000000004
+4 Depth of trees.txt,authors2018 > 6722.50 AND fwCitImp2016 > 1.94 AND pubPA2017 > 0.96,0.39999999999999997
 3 Minimum object by leaf.txt,citPA2016 > 14.79 AND cit2018 > 31738.50 AND pubPA2016 > 0.95 AND pubTCP2018 > 19.10 AND h5Index > 165.00,0.39
 3 Minimum object by leaf.txt,pub2017 > 7940.00 AND pubTCP2017 > 21.50 AND pubPA2016 > 0.95,0.37
 3 Minimum object by leaf.txt,citPP2018 > 2.90 AND intCol2016 > 35.70 AND cit2016 > 117378.00,0.37
 3 Minimum object by leaf.txt,cit2018 > 35720.00 AND pubTCP2017 > 21.50 AND pubPA2017 > 0.96 AND pub2018 > 8184.50,0.36
-4 Depth of trees.txt,authors2017 > 7050.50 AND cit2016 > 107115.50 AND pubTJP2018 > 28.10,0.48000000000000004
-4 Depth of trees.txt,authors2016 > 6535.50 AND cit2016 > 107115.50 AND acaCol2018 > 2.20,0.48000000000000004
-4 Depth of trees.txt,authors2017 > 7050.50 AND acaCol2016 > 2.20 AND cit2016 > 107115.50,0.48000000000000004
-4 Depth of trees.txt,authors2018 > 6722.50 AND fwCitImp2016 > 1.94 AND pubPA2017 > 0.96,0.39999999999999997
-4 Minimum object by leaf.txt,pubTCP2016 > 13.65 AND intCol2016 > 35.70 AND cit2016 > 117378.00,0.37
-4 Minimum object by leaf.txt,cit2018 > 35720.00 AND pubPA2016 > 0.95 AND pubTCP2017 > 21.50 AND pub2016 > 7472.50,0.37
-4 Minimum object by leaf.txt,pub2016 > 7543.00 AND citPP2017 > 8.65 AND intCol2018 > 36.45,0.37
-4 Minimum object by leaf.txt,pub2018 > 8184.50 AND pubTCP2017 > 21.50 AND pubPA2016 > 0.95,0.36
-5 Minimum object by leaf.txt,h5Index > 172.50 AND pubPA2018 > 0.99 AND citPP2017 > 8.75,0.35
-5 Minimum object by leaf.txt,h5Index > 172.50 AND pubPA2017 > 0.97 AND citPP2017 > 8.75,0.35
-5 Minimum object by leaf.txt,cit2018 > 35720.00 AND pub2016 > 7472.50 AND citPA2017 > 9.68,0.35
-5 Minimum object by leaf.txt,pub2017 > 7940.00 AND citPA2017 > 9.68,0.35
-5 Random features.txt,pub2016 > 7543.00 AND citPP2017 > 8.65 AND intCol2018 > 36.45,0.37
-5 Random features.txt,pub2018 > 8184.50 AND pubTCP2017 > 21.50 AND pubPA2016 > 0.95,0.36
-5 Random features.txt,pub2018 > 8184.50 AND pubTCP2017 > 21.50 AND pubPA2017 > 0.96,0.36
-5 Random features.txt,citPP2016 > 14.45 AND authors2016 > 6347.50 AND cit2016 > 117378.00 AND pubPA2016 > 0.95,0.36
-Number of trees.txt,citPA2016 > 14.79 AND cit2016 > 117378.00 AND pubTCP2018 > 19.10 AND pubPA2016 > 0.95,0.4
-Number of trees.txt,citPA2016 > 14.79 AND cit2018 > 31738.50 AND pubPA2018 > 0.98 AND citPP2017 > 8.65 AND h5Index > 165.00,0.39
-Number of trees.txt,pub2017 > 7940.00 AND pubTCP2017 > 21.50 AND pubPA2016 > 0.95,0.37
-Number of trees.txt,h5Index > 172.50 AND cit2016 > 115133.00 AND citPP2018 > 4.25 AND pubPA2016 > 0.95,0.36
+3 Depth of trees.txt,cit2016 > 107650.00 AND citPP2017 > 6.40,0.49000000000000005
+3 Depth of trees.txt,cit2016 > 107650.00 AND acaCol2018 > 2.20,0.49000000000000005
+3 Depth of trees.txt,cit2016 > 107650.00 AND pubTCP2017 > 13.90,0.49000000000000005
+3 Depth of trees.txt,cit2016 > 107650.00 AND pubTJP2017 > 30.15,0.49000000000000005
+60 RandomSubSpace.txt,citPA2016 > 14.79 AND cit2016 > 117378.00 AND pubTCP2018 > 19.10 AND pubPA2016 > 0.95,0.4
+60 RandomSubSpace.txt,citPA2016 > 14.79 AND cit2018 > 31738.50 AND pubPA2018 > 0.98 AND citPP2017 > 8.65 AND h5Index > 165.00,0.39
+60 RandomSubSpace.txt,pub2017 > 7940.00 AND pubTCP2017 > 21.50 AND pubPA2016 > 0.95,0.37
+60 RandomSubSpace.txt,citPP2018 > 4.05 AND cit2016 > 117378.00 AND citPA2017 > 9.69,0.36
+10 Random features.txt,h5Index > 172.50 AND cit2018 > 38284.00 AND citPP2018 > 4.25 AND pubPA2016 > 0.95,0.36
+10 Random features.txt,pub2017 > 7940.00 AND citPA2017 > 9.68,0.35
+10 Random features.txt,authors2017 > 7050.50 AND citPA2017 > 9.69 AND cit2018 > 38603.00,0.34
+10 Random features.txt,cit2016 > 107650.00 AND intCol2016 > 37.45 AND h5Index > 165.00,0.34
+2 Depth of trees.txt,cit2016 > 107650.00,0.48000000000000004
+2 Depth of trees.txt,cit2017 > 75794.50,0.46
+2 Depth of trees.txt,cit2018 > 35720.00,0.45
+2 Depth of trees.txt,pub2016 > 7543.00,0.44
+40 RandomSubSpace.txt,citPA2016 > 14.79 AND cit2016 > 117378.00 AND pubTCP2018 > 19.10 AND pubPA2016 > 0.95,0.4
+40 RandomSubSpace.txt,citPA2016 > 14.79 AND cit2018 > 31738.50 AND pubPA2018 > 0.98 AND citPP2017 > 8.65 AND h5Index > 165.00,0.39
+40 RandomSubSpace.txt,pub2017 > 7940.00 AND pubTCP2017 > 21.50 AND pubPA2016 > 0.95,0.37
+40 RandomSubSpace.txt,citPP2018 > 4.05 AND cit2016 > 117378.00 AND citPA2017 > 9.69,0.36
+CfsSubsetEval AttrSel.txt,cit2017 > 75794.50 AND cit2018 > 43571.50,0.33
+CfsSubsetEval AttrSel.txt,pub2016 > 7543.00 AND cit2018 > 43571.50,0.33
+CfsSubsetEval AttrSel.txt,pub2016 > 7472.50 AND cit2018 > 43571.50,0.33
+CfsSubsetEval AttrSel.txt,cit2016 > 107650.00 AND pubTJP2017 > 30.15 AND cit2018 > 43571.50,0.33
+InfoGainAttributeEval AttrSel.txt,citPA2016 > 14.79 AND cit2016 > 117378.00 AND pubTCP2018 > 19.10 AND pubPA2016 > 0.95,0.4
+InfoGainAttributeEval AttrSel.txt,citPA2016 > 14.79 AND cit2018 > 31738.50 AND pubPA2018 > 0.98 AND citPP2017 > 8.65 AND h5Index > 165.00,0.39
+InfoGainAttributeEval AttrSel.txt,pub2017 > 7940.00 AND pubTCP2017 > 21.50 AND pubPA2016 > 0.95,0.37
+InfoGainAttributeEval AttrSel.txt,citPP2018 > 4.05 AND cit2016 > 117378.00 AND citPA2017 > 9.69,0.36
