@@ -36,7 +36,7 @@ def main(all_files = True, single_file = '', threshold = 0.3):
                 sr = scores.group()
                 sr1 = float(sr[1:5])
                 sr2 = float(sr[6:10])
-                difference = round(sr1 - sr2, 2)
+                difference = round(sr2 - sr1, 2)
                 if difference > threshold:
                     pattern = line[:-11]
                     patterns.add((pattern, difference))
