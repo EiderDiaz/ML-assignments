@@ -3,7 +3,8 @@ import re
 
 runs_dir = os.curdir + '/runs/'
 output_filename = os.curdir + 'results.csv'
-os.remove(output_filename)
+# os.remove(output_filename)
+
 info_string = '{},{},{}\n'.format('File', 'Pattern', 'Score')
 output_csv = open(output_filename, "a")
 output_csv.write(info_string)
