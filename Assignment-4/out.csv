@@ -1,0 +1,1032 @@
+********************* Class: {Descripcion_isMantenimiento == '0'}' *********************
+Pattern: {(Contratacion_isServicios == '0')}
+Count: [55600, 138]
+Target property's support: [58.2779%, 19.2469%]
+Dataset's support: 57.9867%
+Confidence: 99.7524%
+Interpretation:
+The pattern {(Contratacion_isServicios == '0')} describes 55600 (58.2779%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 57.8432% of the whole dataset.
+The pattern {(Contratacion_isServicios == '0')} describes 138 (19.2469%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.1436% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.7524%.
+
+Pattern: {(Contratacion_isServicios == '0') AND (Descripcion_isPrograma == '0')}
+Count: [55555, 123]
+Target property's support: [58.2307%, 17.1548%]
+Dataset's support: 57.9243%
+Confidence: 99.7791%
+Interpretation:
+The pattern {(Contratacion_isServicios == '0') AND (Descripcion_isPrograma == '0')} describes 55555 (58.2307%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 57.7963% of the whole dataset.
+The pattern {(Contratacion_isServicios == '0') AND (Descripcion_isPrograma == '0')} describes 123 (17.1548%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.1280% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.7791%.
+
+Pattern: {(Descripcion_isMateri == '0') AND (Contratacion_isServicios == '0')}
+Count: [55154, 131]
+Target property's support: [57.8104%, 18.2706%]
+Dataset's support: 57.5154%
+Confidence: 99.7630%
+Interpretation:
+The pattern {(Descripcion_isMateri == '0') AND (Contratacion_isServicios == '0')} describes 55154 (57.8104%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 57.3792% of the whole dataset.
+The pattern {(Descripcion_isMateri == '0') AND (Contratacion_isServicios == '0')} describes 131 (18.2706%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.1363% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.7630%.
+
+Pattern: {(Descripcion_isSuministro == '0') AND (Descripcion_isMateri == '0') AND (Contratacion_isServicios == '0') AND (Descripcion_isPrograma == '0')}
+Count: [54742, 113]
+Target property's support: [57.3785%, 15.7601%]
+Dataset's support: 57.0681%
+Confidence: 99.7940%
+Interpretation:
+The pattern {(Descripcion_isSuministro == '0') AND (Descripcion_isMateri == '0') AND (Contratacion_isServicios == '0') AND (Descripcion_isPrograma == '0')} describes 54742 (57.3785%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 56.9505% of the whole dataset.
+The pattern {(Descripcion_isSuministro == '0') AND (Descripcion_isMateri == '0') AND (Contratacion_isServicios == '0') AND (Descripcion_isPrograma == '0')} describes 113 (15.7601%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.1176% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.7940%.
+
+Pattern: {(Contratacion_isServicios == '0') AND (Contratacion_isObraPublica == '0')}
+Count: [48444, 38]
+Target property's support: [50.7772%, 5.2999%]
+Dataset's support: 50.4380%
+Confidence: 99.9216%
+Interpretation:
+The pattern {(Contratacion_isServicios == '0') AND (Contratacion_isObraPublica == '0')} describes 48444 (50.7772%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 50.3985% of the whole dataset.
+The pattern {(Contratacion_isServicios == '0') AND (Contratacion_isObraPublica == '0')} describes 38 (5.2999%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0395% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9216%.
+
+Pattern: {(Contratacion_isServicios == '0') AND (Descripcion_isPrograma == '0') AND (Contratacion_isObraPublica == '0')}
+Count: [48407, 35]
+Target property's support: [50.7384%, 4.8815%]
+Dataset's support: 50.3964%
+Confidence: 99.9277%
+Interpretation:
+The pattern {(Contratacion_isServicios == '0') AND (Descripcion_isPrograma == '0') AND (Contratacion_isObraPublica == '0')} describes 48407 (50.7384%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 50.3600% of the whole dataset.
+The pattern {(Contratacion_isServicios == '0') AND (Descripcion_isPrograma == '0') AND (Contratacion_isObraPublica == '0')} describes 35 (4.8815%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0364% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9277%.
+
+Pattern: {(Descripcion_isSuministro == '0') AND (Contratacion_isServicios == '0') AND (Plantilla_isLicitacion == '0')}
+Count: [48282, 89]
+Target property's support: [50.6074%, 12.4128%]
+Dataset's support: 50.3225%
+Confidence: 99.8160%
+Interpretation:
+The pattern {(Descripcion_isSuministro == '0') AND (Contratacion_isServicios == '0') AND (Plantilla_isLicitacion == '0')} describes 48282 (50.6074%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 50.2299% of the whole dataset.
+The pattern {(Descripcion_isSuministro == '0') AND (Contratacion_isServicios == '0') AND (Plantilla_isLicitacion == '0')} describes 89 (12.4128%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0926% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.8160%.
+
+Pattern: {(Contratacion_isServicios == '0') AND (Contratacion_isObraPublica == '0') AND (Descripcion_isMateri == '0')}
+Count: [48033, 31]
+Target property's support: [50.3464%, 4.3236%]
+Dataset's support: 50.0031%
+Confidence: 99.9355%
+Interpretation:
+The pattern {(Contratacion_isServicios == '0') AND (Contratacion_isObraPublica == '0') AND (Descripcion_isMateri == '0')} describes 48033 (50.3464%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 49.9709% of the whole dataset.
+The pattern {(Contratacion_isServicios == '0') AND (Contratacion_isObraPublica == '0') AND (Descripcion_isMateri == '0')} describes 31 (4.3236%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0323% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9355%.
+
+Pattern: {(Contratacion_isServicios == '0') AND (Descripcion_isMateri == '0') AND (Descripcion_isPrograma == '0') AND (Contratacion_isObraPublica == '0')}
+Count: [48002, 28]
+Target property's support: [50.3139%, 3.9052%]
+Dataset's support: 49.9677%
+Confidence: 99.9417%
+Interpretation:
+The pattern {(Contratacion_isServicios == '0') AND (Descripcion_isMateri == '0') AND (Descripcion_isPrograma == '0') AND (Contratacion_isObraPublica == '0')} describes 48002 (50.3139%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 49.9386% of the whole dataset.
+The pattern {(Contratacion_isServicios == '0') AND (Descripcion_isMateri == '0') AND (Descripcion_isPrograma == '0') AND (Contratacion_isObraPublica == '0')} describes 28 (3.9052%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0291% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9417%.
+
+Pattern: {(Contratacion_isServicios == '0') AND (Descripcion_isPrograma == '0') AND (Contratacion_isObraPublica == '0') AND (Descripcion_isMateri == '0')}
+Count: [48002, 28]
+Target property's support: [50.3139%, 3.9052%]
+Dataset's support: 49.9677%
+Confidence: 99.9417%
+Interpretation:
+The pattern {(Contratacion_isServicios == '0') AND (Descripcion_isPrograma == '0') AND (Contratacion_isObraPublica == '0') AND (Descripcion_isMateri == '0')} describes 48002 (50.3139%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 49.9386% of the whole dataset.
+The pattern {(Contratacion_isServicios == '0') AND (Descripcion_isPrograma == '0') AND (Contratacion_isObraPublica == '0') AND (Descripcion_isMateri == '0')} describes 28 (3.9052%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0291% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9417%.
+
+Pattern: {(Contratacion_isServicios == '0') AND (Contratacion_isObraPublica == '0') AND (Descripcion_isPrograma == '0') AND (Descripcion_isMateri == '0')}
+Count: [48002, 28]
+Target property's support: [50.3139%, 3.9052%]
+Dataset's support: 49.9677%
+Confidence: 99.9417%
+Interpretation:
+The pattern {(Contratacion_isServicios == '0') AND (Contratacion_isObraPublica == '0') AND (Descripcion_isPrograma == '0') AND (Descripcion_isMateri == '0')} describes 48002 (50.3139%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 49.9386% of the whole dataset.
+The pattern {(Contratacion_isServicios == '0') AND (Contratacion_isObraPublica == '0') AND (Descripcion_isPrograma == '0') AND (Descripcion_isMateri == '0')} describes 28 (3.9052%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0291% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9417%.
+
+Pattern: {(Descripcion_isSuministro == '0') AND (Contratacion_isServicios == '0') AND (Contratacion_isObraPublica == '0') AND (Descripcion_isSalud == '0')}
+Count: [47989, 31]
+Target property's support: [50.3003%, 4.3236%]
+Dataset's support: 49.9573%
+Confidence: 99.9354%
+Interpretation:
+The pattern {(Descripcion_isSuministro == '0') AND (Contratacion_isServicios == '0') AND (Contratacion_isObraPublica == '0') AND (Descripcion_isSalud == '0')} describes 47989 (50.3003%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 49.9251% of the whole dataset.
+The pattern {(Descripcion_isSuministro == '0') AND (Contratacion_isServicios == '0') AND (Contratacion_isObraPublica == '0') AND (Descripcion_isSalud == '0')} describes 31 (4.3236%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0323% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9354%.
+
+Pattern: {(Contratacion_isServicios == '0') AND (Contratacion_isObraPublica == '0') AND (Descripcion_isSuministro == '0') AND (Descripcion_isPrograma == '0') AND (Descripcion_isSalud == '0')}
+Count: [47952, 28]
+Target property's support: [50.2615%, 3.9052%]
+Dataset's support: 49.9157%
+Confidence: 99.9416%
+Interpretation:
+The pattern {(Contratacion_isServicios == '0') AND (Contratacion_isObraPublica == '0') AND (Descripcion_isSuministro == '0') AND (Descripcion_isPrograma == '0') AND (Descripcion_isSalud == '0')} describes 47952 (50.2615%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 49.8866% of the whole dataset.
+The pattern {(Contratacion_isServicios == '0') AND (Contratacion_isObraPublica == '0') AND (Descripcion_isSuministro == '0') AND (Descripcion_isPrograma == '0') AND (Descripcion_isSalud == '0')} describes 28 (3.9052%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0291% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9416%.
+
+Pattern: {(Contratacion_isServicios == '0') AND (Descripcion_isPrograma == '0') AND (Contratacion_isObraPublica == '0') AND (Descripcion_isMateri == '0') AND (Descripcion_isSalud == '0')}
+Count: [47932, 25]
+Target property's support: [50.2406%, 3.4868%]
+Dataset's support: 49.8918%
+Confidence: 99.9479%
+Interpretation:
+The pattern {(Contratacion_isServicios == '0') AND (Descripcion_isPrograma == '0') AND (Contratacion_isObraPublica == '0') AND (Descripcion_isMateri == '0') AND (Descripcion_isSalud == '0')} describes 47932 (50.2406%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 49.8658% of the whole dataset.
+The pattern {(Contratacion_isServicios == '0') AND (Descripcion_isPrograma == '0') AND (Contratacion_isObraPublica == '0') AND (Descripcion_isMateri == '0') AND (Descripcion_isSalud == '0')} describes 25 (3.4868%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0260% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9479%.
+
+Pattern: {(Contratacion_isServicios == '0') AND (Contratacion_isObraPublica == '0') AND (Descripcion_isMateri == '0') AND (Descripcion_isPrograma == '0') AND (Descripcion_isSalud == '0')}
+Count: [47932, 25]
+Target property's support: [50.2406%, 3.4868%]
+Dataset's support: 49.8918%
+Confidence: 99.9479%
+Interpretation:
+The pattern {(Contratacion_isServicios == '0') AND (Contratacion_isObraPublica == '0') AND (Descripcion_isMateri == '0') AND (Descripcion_isPrograma == '0') AND (Descripcion_isSalud == '0')} describes 47932 (50.2406%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 49.8658% of the whole dataset.
+The pattern {(Contratacion_isServicios == '0') AND (Contratacion_isObraPublica == '0') AND (Descripcion_isMateri == '0') AND (Descripcion_isPrograma == '0') AND (Descripcion_isSalud == '0')} describes 25 (3.4868%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0260% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9479%.
+
+Pattern: {(Contratacion_isServicios == '0') AND (Descripcion_isPrograma == '0') AND (Contratacion_isObraPublica == '0') AND (Descripcion_isSalud == '0') AND (Descripcion_isMateri == '0')}
+Count: [47932, 25]
+Target property's support: [50.2406%, 3.4868%]
+Dataset's support: 49.8918%
+Confidence: 99.9479%
+Interpretation:
+The pattern {(Contratacion_isServicios == '0') AND (Descripcion_isPrograma == '0') AND (Contratacion_isObraPublica == '0') AND (Descripcion_isSalud == '0') AND (Descripcion_isMateri == '0')} describes 47932 (50.2406%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 49.8658% of the whole dataset.
+The pattern {(Contratacion_isServicios == '0') AND (Descripcion_isPrograma == '0') AND (Contratacion_isObraPublica == '0') AND (Descripcion_isSalud == '0') AND (Descripcion_isMateri == '0')} describes 25 (3.4868%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0260% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9479%.
+
+Pattern: {(Contratacion_isServicios == '0') AND (Contratacion_isAdquisiciones == '1')}
+Count: [47745, 31]
+Target property's support: [50.0445%, 4.3236%]
+Dataset's support: 49.7035%
+Confidence: 99.9351%
+Interpretation:
+The pattern {(Contratacion_isServicios == '0') AND (Contratacion_isAdquisiciones == '1')} describes 47745 (50.0445%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 49.6713% of the whole dataset.
+The pattern {(Contratacion_isServicios == '0') AND (Contratacion_isAdquisiciones == '1')} describes 31 (4.3236%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0323% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9351%.
+
+Pattern: {(Contratacion_isAdquisiciones == '1')}
+Count: [47745, 31]
+Target property's support: [50.0445%, 4.3236%]
+Dataset's support: 49.7035%
+Confidence: 99.9351%
+Interpretation:
+The pattern {(Contratacion_isAdquisiciones == '1')} describes 47745 (50.0445%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 49.6713% of the whole dataset.
+The pattern {(Contratacion_isAdquisiciones == '1')} describes 31 (4.3236%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0323% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9351%.
+
+Pattern: {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0')}
+Count: [47709, 28]
+Target property's support: [50.0068%, 3.9052%]
+Dataset's support: 49.6629%
+Confidence: 99.9413%
+Interpretation:
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0')} describes 47709 (50.0068%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 49.6338% of the whole dataset.
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0')} describes 28 (3.9052%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0291% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9413%.
+
+Pattern: {(Contratacion_isServicios == '0') AND (Descripcion_isPrograma == '0') AND (Contratacion_isAdquisiciones == '1')}
+Count: [47709, 28]
+Target property's support: [50.0068%, 3.9052%]
+Dataset's support: 49.6629%
+Confidence: 99.9413%
+Interpretation:
+The pattern {(Contratacion_isServicios == '0') AND (Descripcion_isPrograma == '0') AND (Contratacion_isAdquisiciones == '1')} describes 47709 (50.0068%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 49.6338% of the whole dataset.
+The pattern {(Contratacion_isServicios == '0') AND (Descripcion_isPrograma == '0') AND (Contratacion_isAdquisiciones == '1')} describes 28 (3.9052%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0291% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9413%.
+
+Pattern: {(Descripcion_isPrograma == '0') AND (Contratacion_isAdquisiciones == '1')}
+Count: [47709, 28]
+Target property's support: [50.0068%, 3.9052%]
+Dataset's support: 49.6629%
+Confidence: 99.9413%
+Interpretation:
+The pattern {(Descripcion_isPrograma == '0') AND (Contratacion_isAdquisiciones == '1')} describes 47709 (50.0068%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 49.6338% of the whole dataset.
+The pattern {(Descripcion_isPrograma == '0') AND (Contratacion_isAdquisiciones == '1')} describes 28 (3.9052%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0291% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9413%.
+
+Pattern: {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isSalud == '0')}
+Count: [47649, 28]
+Target property's support: [49.9439%, 3.9052%]
+Dataset's support: 49.6005%
+Confidence: 99.9413%
+Interpretation:
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isSalud == '0')} describes 47649 (49.9439%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 49.5714% of the whole dataset.
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isSalud == '0')} describes 28 (3.9052%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0291% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9413%.
+
+Pattern: {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isSalud == '0')}
+Count: [47613, 25]
+Target property's support: [49.9062%, 3.4868%]
+Dataset's support: 49.5599%
+Confidence: 99.9475%
+Interpretation:
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isSalud == '0')} describes 47613 (49.9062%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 49.5339% of the whole dataset.
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isSalud == '0')} describes 25 (3.4868%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0260% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9475%.
+
+Pattern: {(Contratacion_isServicios == '0') AND (Descripcion_isPrograma == '0') AND (Descripcion_isSalud == '0') AND (Contratacion_isAdquisiciones == '1')}
+Count: [47613, 25]
+Target property's support: [49.9062%, 3.4868%]
+Dataset's support: 49.5599%
+Confidence: 99.9475%
+Interpretation:
+The pattern {(Contratacion_isServicios == '0') AND (Descripcion_isPrograma == '0') AND (Descripcion_isSalud == '0') AND (Contratacion_isAdquisiciones == '1')} describes 47613 (49.9062%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 49.5339% of the whole dataset.
+The pattern {(Contratacion_isServicios == '0') AND (Descripcion_isPrograma == '0') AND (Descripcion_isSalud == '0') AND (Contratacion_isAdquisiciones == '1')} describes 25 (3.4868%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0260% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9475%.
+
+Pattern: {(Descripcion_isPrograma == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isSalud == '0')}
+Count: [47613, 25]
+Target property's support: [49.9062%, 3.4868%]
+Dataset's support: 49.5599%
+Confidence: 99.9475%
+Interpretation:
+The pattern {(Descripcion_isPrograma == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isSalud == '0')} describes 47613 (49.9062%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 49.5339% of the whole dataset.
+The pattern {(Descripcion_isPrograma == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isSalud == '0')} describes 25 (3.4868%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0260% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9475%.
+
+Pattern: {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isSalud == '0') AND (Descripcion_isPrograma == '0')}
+Count: [47613, 25]
+Target property's support: [49.9062%, 3.4868%]
+Dataset's support: 49.5599%
+Confidence: 99.9475%
+Interpretation:
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isSalud == '0') AND (Descripcion_isPrograma == '0')} describes 47613 (49.9062%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 49.5339% of the whole dataset.
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isSalud == '0') AND (Descripcion_isPrograma == '0')} describes 25 (3.4868%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0260% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9475%.
+
+Pattern: {(Contratacion_isServicios == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isSuministro == '0')}
+Count: [47385, 27]
+Target property's support: [49.6672%, 3.7657%]
+Dataset's support: 49.3248%
+Confidence: 99.9431%
+Interpretation:
+The pattern {(Contratacion_isServicios == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isSuministro == '0')} describes 47385 (49.6672%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 49.2967% of the whole dataset.
+The pattern {(Contratacion_isServicios == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isSuministro == '0')} describes 27 (3.7657%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0281% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9431%.
+
+Pattern: {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isSuministro == '0')}
+Count: [47385, 27]
+Target property's support: [49.6672%, 3.7657%]
+Dataset's support: 49.3248%
+Confidence: 99.9431%
+Interpretation:
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isSuministro == '0')} describes 47385 (49.6672%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 49.2967% of the whole dataset.
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isSuministro == '0')} describes 27 (3.7657%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0281% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9431%.
+
+Pattern: {(Descripcion_isSuministro == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0')}
+Count: [47349, 24]
+Target property's support: [49.6295%, 3.3473%]
+Dataset's support: 49.2842%
+Confidence: 99.9493%
+Interpretation:
+The pattern {(Descripcion_isSuministro == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0')} describes 47349 (49.6295%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 49.2593% of the whole dataset.
+The pattern {(Descripcion_isSuministro == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0')} describes 24 (3.3473%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0250% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9493%.
+
+Pattern: {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isSuministro == '0')}
+Count: [47349, 24]
+Target property's support: [49.6295%, 3.3473%]
+Dataset's support: 49.2842%
+Confidence: 99.9493%
+Interpretation:
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isSuministro == '0')} describes 47349 (49.6295%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 49.2593% of the whole dataset.
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isSuministro == '0')} describes 24 (3.3473%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0250% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9493%.
+
+Pattern: {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isMateri == '0')}
+Count: [47338, 24]
+Target property's support: [49.6179%, 3.3473%]
+Dataset's support: 49.2728%
+Confidence: 99.9493%
+Interpretation:
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isMateri == '0')} describes 47338 (49.6179%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 49.2478% of the whole dataset.
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isMateri == '0')} describes 24 (3.3473%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0250% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9493%.
+
+Pattern: {(Contratacion_isServicios == '0') AND (Contratacion_isObraPublica == '0') AND (Descripcion_isMateri == '0') AND (Contratacion_isAdquisiciones == '1')}
+Count: [47338, 24]
+Target property's support: [49.6179%, 3.3473%]
+Dataset's support: 49.2728%
+Confidence: 99.9493%
+Interpretation:
+The pattern {(Contratacion_isServicios == '0') AND (Contratacion_isObraPublica == '0') AND (Descripcion_isMateri == '0') AND (Contratacion_isAdquisiciones == '1')} describes 47338 (49.6179%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 49.2478% of the whole dataset.
+The pattern {(Contratacion_isServicios == '0') AND (Contratacion_isObraPublica == '0') AND (Descripcion_isMateri == '0') AND (Contratacion_isAdquisiciones == '1')} describes 24 (3.3473%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0250% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9493%.
+
+Pattern: {(Descripcion_isPrograma == '0') AND (Descripcion_isMateri == '0') AND (Contratacion_isAdquisiciones == '1')}
+Count: [47308, 21]
+Target property's support: [49.5865%, 2.9289%]
+Dataset's support: 49.2385%
+Confidence: 99.9556%
+Interpretation:
+The pattern {(Descripcion_isPrograma == '0') AND (Descripcion_isMateri == '0') AND (Contratacion_isAdquisiciones == '1')} describes 47308 (49.5865%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 49.2166% of the whole dataset.
+The pattern {(Descripcion_isPrograma == '0') AND (Descripcion_isMateri == '0') AND (Contratacion_isAdquisiciones == '1')} describes 21 (2.9289%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0218% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9556%.
+
+Pattern: {(Descripcion_isPrograma == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isMateri == '0')}
+Count: [47308, 21]
+Target property's support: [49.5865%, 2.9289%]
+Dataset's support: 49.2385%
+Confidence: 99.9556%
+Interpretation:
+The pattern {(Descripcion_isPrograma == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isMateri == '0')} describes 47308 (49.5865%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 49.2166% of the whole dataset.
+The pattern {(Descripcion_isPrograma == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isMateri == '0')} describes 21 (2.9289%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0218% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9556%.
+
+Pattern: {(Descripcion_isPrograma == '0') AND (Contratacion_isServicios == '0') AND (Contratacion_isObraPublica == '0') AND (Descripcion_isMateri == '0') AND (Contratacion_isAdquisiciones == '1')}
+Count: [47308, 21]
+Target property's support: [49.5865%, 2.9289%]
+Dataset's support: 49.2385%
+Confidence: 99.9556%
+Interpretation:
+The pattern {(Descripcion_isPrograma == '0') AND (Contratacion_isServicios == '0') AND (Contratacion_isObraPublica == '0') AND (Descripcion_isMateri == '0') AND (Contratacion_isAdquisiciones == '1')} describes 47308 (49.5865%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 49.2166% of the whole dataset.
+The pattern {(Descripcion_isPrograma == '0') AND (Contratacion_isServicios == '0') AND (Contratacion_isObraPublica == '0') AND (Descripcion_isMateri == '0') AND (Contratacion_isAdquisiciones == '1')} describes 21 (2.9289%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0218% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9556%.
+
+Pattern: {(Contratacion_isServicios == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isMateri == '0')}
+Count: [47308, 21]
+Target property's support: [49.5865%, 2.9289%]
+Dataset's support: 49.2385%
+Confidence: 99.9556%
+Interpretation:
+The pattern {(Contratacion_isServicios == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isMateri == '0')} describes 47308 (49.5865%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 49.2166% of the whole dataset.
+The pattern {(Contratacion_isServicios == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isMateri == '0')} describes 21 (2.9289%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0218% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9556%.
+
+Pattern: {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isMateri == '0')}
+Count: [47308, 21]
+Target property's support: [49.5865%, 2.9289%]
+Dataset's support: 49.2385%
+Confidence: 99.9556%
+Interpretation:
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isMateri == '0')} describes 47308 (49.5865%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 49.2166% of the whole dataset.
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isMateri == '0')} describes 21 (2.9289%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0218% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9556%.
+
+Pattern: {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isMateri == '0') AND (Descripcion_isPrograma == '0')}
+Count: [47308, 21]
+Target property's support: [49.5865%, 2.9289%]
+Dataset's support: 49.2385%
+Confidence: 99.9556%
+Interpretation:
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isMateri == '0') AND (Descripcion_isPrograma == '0')} describes 47308 (49.5865%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 49.2166% of the whole dataset.
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isMateri == '0') AND (Descripcion_isPrograma == '0')} describes 21 (2.9289%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0218% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9556%.
+
+Pattern: {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isSalud == '0') AND (Descripcion_isSuministro == '0')}
+Count: [47293, 24]
+Target property's support: [49.5708%, 3.3473%]
+Dataset's support: 49.2260%
+Confidence: 99.9493%
+Interpretation:
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isSalud == '0') AND (Descripcion_isSuministro == '0')} describes 47293 (49.5708%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 49.2010% of the whole dataset.
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isSalud == '0') AND (Descripcion_isSuministro == '0')} describes 24 (3.3473%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0250% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9493%.
+
+Pattern: {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isMateri == '0') AND (Descripcion_isSalud == '0')}
+Count: [47268, 21]
+Target property's support: [49.5446%, 2.9289%]
+Dataset's support: 49.1969%
+Confidence: 99.9556%
+Interpretation:
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isMateri == '0') AND (Descripcion_isSalud == '0')} describes 47268 (49.5446%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 49.1750% of the whole dataset.
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isMateri == '0') AND (Descripcion_isSalud == '0')} describes 21 (2.9289%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0218% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9556%.
+
+Pattern: {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isSalud == '0') AND (Descripcion_isMateri == '0')}
+Count: [47268, 21]
+Target property's support: [49.5446%, 2.9289%]
+Dataset's support: 49.1969%
+Confidence: 99.9556%
+Interpretation:
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isSalud == '0') AND (Descripcion_isMateri == '0')} describes 47268 (49.5446%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 49.1750% of the whole dataset.
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isSalud == '0') AND (Descripcion_isMateri == '0')} describes 21 (2.9289%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0218% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9556%.
+
+Pattern: {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isSalud == '0') AND (Descripcion_isSuministro == '0')}
+Count: [47257, 21]
+Target property's support: [49.5330%, 2.9289%]
+Dataset's support: 49.1854%
+Confidence: 99.9556%
+Interpretation:
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isSalud == '0') AND (Descripcion_isSuministro == '0')} describes 47257 (49.5330%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 49.1636% of the whole dataset.
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isSalud == '0') AND (Descripcion_isSuministro == '0')} describes 21 (2.9289%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0218% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9556%.
+
+Pattern: {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isSalud == '0') AND (Descripcion_isSuministro == '0') AND (Descripcion_isPrograma == '0')}
+Count: [47257, 21]
+Target property's support: [49.5330%, 2.9289%]
+Dataset's support: 49.1854%
+Confidence: 99.9556%
+Interpretation:
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isSalud == '0') AND (Descripcion_isSuministro == '0') AND (Descripcion_isPrograma == '0')} describes 47257 (49.5330%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 49.1636% of the whole dataset.
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isSalud == '0') AND (Descripcion_isSuministro == '0') AND (Descripcion_isPrograma == '0')} describes 21 (2.9289%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0218% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9556%.
+
+Pattern: {(Descripcion_isSuministro == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isSalud == '0') AND (Descripcion_isPrograma == '0')}
+Count: [47257, 21]
+Target property's support: [49.5330%, 2.9289%]
+Dataset's support: 49.1854%
+Confidence: 99.9556%
+Interpretation:
+The pattern {(Descripcion_isSuministro == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isSalud == '0') AND (Descripcion_isPrograma == '0')} describes 47257 (49.5330%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 49.1636% of the whole dataset.
+The pattern {(Descripcion_isSuministro == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isSalud == '0') AND (Descripcion_isPrograma == '0')} describes 21 (2.9289%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0218% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9556%.
+
+Pattern: {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isSalud == '0') AND (Descripcion_isPrograma == '0') AND (Descripcion_isSuministro == '0')}
+Count: [47257, 21]
+Target property's support: [49.5330%, 2.9289%]
+Dataset's support: 49.1854%
+Confidence: 99.9556%
+Interpretation:
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isSalud == '0') AND (Descripcion_isPrograma == '0') AND (Descripcion_isSuministro == '0')} describes 47257 (49.5330%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 49.1636% of the whole dataset.
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isSalud == '0') AND (Descripcion_isPrograma == '0') AND (Descripcion_isSuministro == '0')} describes 21 (2.9289%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0218% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9556%.
+
+Pattern: {(Contratacion_isServicios == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isMateri == '0') AND (Descripcion_isSalud == '0') AND (Descripcion_isPrograma == '0')}
+Count: [47238, 18]
+Target property's support: [49.5131%, 2.5105%]
+Dataset's support: 49.1625%
+Confidence: 99.9619%
+Interpretation:
+The pattern {(Contratacion_isServicios == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isMateri == '0') AND (Descripcion_isSalud == '0') AND (Descripcion_isPrograma == '0')} describes 47238 (49.5131%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 49.1438% of the whole dataset.
+The pattern {(Contratacion_isServicios == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isMateri == '0') AND (Descripcion_isSalud == '0') AND (Descripcion_isPrograma == '0')} describes 18 (2.5105%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0187% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9619%.
+
+Pattern: {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isSalud == '0') AND (Descripcion_isPrograma == '0') AND (Descripcion_isMateri == '0')}
+Count: [47238, 18]
+Target property's support: [49.5131%, 2.5105%]
+Dataset's support: 49.1625%
+Confidence: 99.9619%
+Interpretation:
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isSalud == '0') AND (Descripcion_isPrograma == '0') AND (Descripcion_isMateri == '0')} describes 47238 (49.5131%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 49.1438% of the whole dataset.
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isSalud == '0') AND (Descripcion_isPrograma == '0') AND (Descripcion_isMateri == '0')} describes 18 (2.5105%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0187% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9619%.
+
+Pattern: {(Contratacion_isServicios == '0') AND (Descripcion_isPrograma == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isMateri == '0') AND (Descripcion_isSalud == '0')}
+Count: [47238, 18]
+Target property's support: [49.5131%, 2.5105%]
+Dataset's support: 49.1625%
+Confidence: 99.9619%
+Interpretation:
+The pattern {(Contratacion_isServicios == '0') AND (Descripcion_isPrograma == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isMateri == '0') AND (Descripcion_isSalud == '0')} describes 47238 (49.5131%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 49.1438% of the whole dataset.
+The pattern {(Contratacion_isServicios == '0') AND (Descripcion_isPrograma == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isMateri == '0') AND (Descripcion_isSalud == '0')} describes 18 (2.5105%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0187% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9619%.
+
+Pattern: {(Contratacion_isServicios == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isSalud == '0') AND (Descripcion_isPrograma == '0') AND (Descripcion_isMateri == '0')}
+Count: [47238, 18]
+Target property's support: [49.5131%, 2.5105%]
+Dataset's support: 49.1625%
+Confidence: 99.9619%
+Interpretation:
+The pattern {(Contratacion_isServicios == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isSalud == '0') AND (Descripcion_isPrograma == '0') AND (Descripcion_isMateri == '0')} describes 47238 (49.5131%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 49.1438% of the whole dataset.
+The pattern {(Contratacion_isServicios == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isSalud == '0') AND (Descripcion_isPrograma == '0') AND (Descripcion_isMateri == '0')} describes 18 (2.5105%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0187% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9619%.
+
+Pattern: {(Descripcion_isPrograma == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isMateri == '0') AND (Descripcion_isSalud == '0')}
+Count: [47238, 18]
+Target property's support: [49.5131%, 2.5105%]
+Dataset's support: 49.1625%
+Confidence: 99.9619%
+Interpretation:
+The pattern {(Descripcion_isPrograma == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isMateri == '0') AND (Descripcion_isSalud == '0')} describes 47238 (49.5131%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 49.1438% of the whole dataset.
+The pattern {(Descripcion_isPrograma == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isMateri == '0') AND (Descripcion_isSalud == '0')} describes 18 (2.5105%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0187% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9619%.
+
+Pattern: {(Contratacion_isServicios == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isSalud == '0') AND (Descripcion_isMateri == '0')}
+Count: [47238, 18]
+Target property's support: [49.5131%, 2.5105%]
+Dataset's support: 49.1625%
+Confidence: 99.9619%
+Interpretation:
+The pattern {(Contratacion_isServicios == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isSalud == '0') AND (Descripcion_isMateri == '0')} describes 47238 (49.5131%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 49.1438% of the whole dataset.
+The pattern {(Contratacion_isServicios == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isSalud == '0') AND (Descripcion_isMateri == '0')} describes 18 (2.5105%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0187% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9619%.
+
+Pattern: {(Contratacion_isServicios == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isMateri == '0') AND (Descripcion_isSalud == '0')}
+Count: [47238, 18]
+Target property's support: [49.5131%, 2.5105%]
+Dataset's support: 49.1625%
+Confidence: 99.9619%
+Interpretation:
+The pattern {(Contratacion_isServicios == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isMateri == '0') AND (Descripcion_isSalud == '0')} describes 47238 (49.5131%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 49.1438% of the whole dataset.
+The pattern {(Contratacion_isServicios == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isMateri == '0') AND (Descripcion_isSalud == '0')} describes 18 (2.5105%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0187% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9619%.
+
+Pattern: {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isMateri == '0') AND (Descripcion_isSalud == '0')}
+Count: [47238, 18]
+Target property's support: [49.5131%, 2.5105%]
+Dataset's support: 49.1625%
+Confidence: 99.9619%
+Interpretation:
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isMateri == '0') AND (Descripcion_isSalud == '0')} describes 47238 (49.5131%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 49.1438% of the whole dataset.
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isMateri == '0') AND (Descripcion_isSalud == '0')} describes 18 (2.5105%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0187% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9619%.
+
+Pattern: {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isMateri == '0') AND (Descripcion_isSuministro == '0')}
+Count: [46995, 22]
+Target property's support: [49.2584%, 3.0683%]
+Dataset's support: 48.9139%
+Confidence: 99.9532%
+Interpretation:
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isMateri == '0') AND (Descripcion_isSuministro == '0')} describes 46995 (49.2584%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 48.8910% of the whole dataset.
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isMateri == '0') AND (Descripcion_isSuministro == '0')} describes 22 (3.0683%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0229% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9532%.
+
+Pattern: {(Descripcion_isMateri == '0') AND (Descripcion_isPrograma == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isSuministro == '0')}
+Count: [46965, 19]
+Target property's support: [49.2270%, 2.6499%]
+Dataset's support: 48.8795%
+Confidence: 99.9596%
+Interpretation:
+The pattern {(Descripcion_isMateri == '0') AND (Descripcion_isPrograma == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isSuministro == '0')} describes 46965 (49.2270%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 48.8598% of the whole dataset.
+The pattern {(Descripcion_isMateri == '0') AND (Descripcion_isPrograma == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isSuministro == '0')} describes 19 (2.6499%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0198% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9596%.
+
+Pattern: {(Contratacion_isServicios == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isMateri == '0') AND (Descripcion_isSuministro == '0') AND (Descripcion_isPrograma == '0')}
+Count: [46965, 19]
+Target property's support: [49.2270%, 2.6499%]
+Dataset's support: 48.8795%
+Confidence: 99.9596%
+Interpretation:
+The pattern {(Contratacion_isServicios == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isMateri == '0') AND (Descripcion_isSuministro == '0') AND (Descripcion_isPrograma == '0')} describes 46965 (49.2270%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 48.8598% of the whole dataset.
+The pattern {(Contratacion_isServicios == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isMateri == '0') AND (Descripcion_isSuministro == '0') AND (Descripcion_isPrograma == '0')} describes 19 (2.6499%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0198% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9596%.
+
+Pattern: {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isMateri == '0') AND (Descripcion_isSuministro == '0') AND (Descripcion_isPrograma == '0')}
+Count: [46965, 19]
+Target property's support: [49.2270%, 2.6499%]
+Dataset's support: 48.8795%
+Confidence: 99.9596%
+Interpretation:
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isMateri == '0') AND (Descripcion_isSuministro == '0') AND (Descripcion_isPrograma == '0')} describes 46965 (49.2270%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 48.8598% of the whole dataset.
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isMateri == '0') AND (Descripcion_isSuministro == '0') AND (Descripcion_isPrograma == '0')} describes 19 (2.6499%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0198% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9596%.
+
+Pattern: {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isMateri == '0') AND (Descripcion_isPrograma == '0') AND (Descripcion_isSuministro == '0')}
+Count: [46965, 19]
+Target property's support: [49.2270%, 2.6499%]
+Dataset's support: 48.8795%
+Confidence: 99.9596%
+Interpretation:
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isMateri == '0') AND (Descripcion_isPrograma == '0') AND (Descripcion_isSuministro == '0')} describes 46965 (49.2270%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 48.8598% of the whole dataset.
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isMateri == '0') AND (Descripcion_isPrograma == '0') AND (Descripcion_isSuministro == '0')} describes 19 (2.6499%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0198% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9596%.
+
+Pattern: {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isSuministro == '0') AND (Descripcion_isMateri == '0') AND (Descripcion_isPrograma == '0')}
+Count: [46965, 19]
+Target property's support: [49.2270%, 2.6499%]
+Dataset's support: 48.8795%
+Confidence: 99.9596%
+Interpretation:
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isSuministro == '0') AND (Descripcion_isMateri == '0') AND (Descripcion_isPrograma == '0')} describes 46965 (49.2270%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 48.8598% of the whole dataset.
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isSuministro == '0') AND (Descripcion_isMateri == '0') AND (Descripcion_isPrograma == '0')} describes 19 (2.6499%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0198% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9596%.
+
+Pattern: {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isSalud == '0') AND (Descripcion_isMateri == '0') AND (Descripcion_isSuministro == '0')}
+Count: [46927, 19]
+Target property's support: [49.1871%, 2.6499%]
+Dataset's support: 48.8400%
+Confidence: 99.9595%
+Interpretation:
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isSalud == '0') AND (Descripcion_isMateri == '0') AND (Descripcion_isSuministro == '0')} describes 46927 (49.1871%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 48.8202% of the whole dataset.
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isSalud == '0') AND (Descripcion_isMateri == '0') AND (Descripcion_isSuministro == '0')} describes 19 (2.6499%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0198% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9595%.
+
+Pattern: {(Descripcion_isMateri == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isSalud == '0') AND (Descripcion_isSuministro == '0')}
+Count: [46897, 16]
+Target property's support: [49.1557%, 2.2315%]
+Dataset's support: 48.8057%
+Confidence: 99.9659%
+Interpretation:
+The pattern {(Descripcion_isMateri == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isSalud == '0') AND (Descripcion_isSuministro == '0')} describes 46897 (49.1557%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 48.7890% of the whole dataset.
+The pattern {(Descripcion_isMateri == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isSalud == '0') AND (Descripcion_isSuministro == '0')} describes 16 (2.2315%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0166% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9659%.
+
+Pattern: {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isMateri == '0') AND (Descripcion_isPrograma == '0') AND (Descripcion_isSuministro == '0') AND (Descripcion_isSalud == '0')}
+Count: [46897, 16]
+Target property's support: [49.1557%, 2.2315%]
+Dataset's support: 48.8057%
+Confidence: 99.9659%
+Interpretation:
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isMateri == '0') AND (Descripcion_isPrograma == '0') AND (Descripcion_isSuministro == '0') AND (Descripcion_isSalud == '0')} describes 46897 (49.1557%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 48.7890% of the whole dataset.
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isMateri == '0') AND (Descripcion_isPrograma == '0') AND (Descripcion_isSuministro == '0') AND (Descripcion_isSalud == '0')} describes 16 (2.2315%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0166% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9659%.
+
+Pattern: {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isMateri == '0') AND (Descripcion_isSuministro == '0') AND (Descripcion_isSalud == '0')}
+Count: [46897, 16]
+Target property's support: [49.1557%, 2.2315%]
+Dataset's support: 48.8057%
+Confidence: 99.9659%
+Interpretation:
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isMateri == '0') AND (Descripcion_isSuministro == '0') AND (Descripcion_isSalud == '0')} describes 46897 (49.1557%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 48.7890% of the whole dataset.
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isMateri == '0') AND (Descripcion_isSuministro == '0') AND (Descripcion_isSalud == '0')} describes 16 (2.2315%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0166% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9659%.
+
+Pattern: {(Descripcion_isMateri == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isSuministro == '0') AND (Descripcion_isSalud == '0')}
+Count: [46897, 16]
+Target property's support: [49.1557%, 2.2315%]
+Dataset's support: 48.8057%
+Confidence: 99.9659%
+Interpretation:
+The pattern {(Descripcion_isMateri == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isSuministro == '0') AND (Descripcion_isSalud == '0')} describes 46897 (49.1557%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 48.7890% of the whole dataset.
+The pattern {(Descripcion_isMateri == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isSuministro == '0') AND (Descripcion_isSalud == '0')} describes 16 (2.2315%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0166% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9659%.
+
+Pattern: {(Contratacion_isServicios == '0') AND (Descripcion_isPrograma == '0') AND (Plantilla_isLicitacion == '0') AND (Contratacion_isObraPublica == '0')}
+Count: [44625, 27]
+Target property's support: [46.7743%, 3.7657%]
+Dataset's support: 46.4535%
+Confidence: 99.9395%
+Interpretation:
+The pattern {(Contratacion_isServicios == '0') AND (Descripcion_isPrograma == '0') AND (Plantilla_isLicitacion == '0') AND (Contratacion_isObraPublica == '0')} describes 44625 (46.7743%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 46.4254% of the whole dataset.
+The pattern {(Contratacion_isServicios == '0') AND (Descripcion_isPrograma == '0') AND (Plantilla_isLicitacion == '0') AND (Contratacion_isObraPublica == '0')} describes 27 (3.7657%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0281% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9395%.
+
+Pattern: {(Contratacion_isAdquisiciones == '1') AND (Plantilla_isLicitacion == '0')}
+Count: [44039, 23]
+Target property's support: [46.1601%, 3.2078%]
+Dataset's support: 45.8397%
+Confidence: 99.9478%
+Interpretation:
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Plantilla_isLicitacion == '0')} describes 44039 (46.1601%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 45.8157% of the whole dataset.
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Plantilla_isLicitacion == '0')} describes 23 (3.2078%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0239% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9478%.
+
+Pattern: {(Contratacion_isServicios == '0') AND (Descripcion_isPrograma == '0') AND (Contratacion_isAdquisiciones == '1') AND (Plantilla_isLicitacion == '0')}
+Count: [44004, 21]
+Target property's support: [46.1234%, 2.9289%]
+Dataset's support: 45.8012%
+Confidence: 99.9523%
+Interpretation:
+The pattern {(Contratacion_isServicios == '0') AND (Descripcion_isPrograma == '0') AND (Contratacion_isAdquisiciones == '1') AND (Plantilla_isLicitacion == '0')} describes 44004 (46.1234%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 45.7793% of the whole dataset.
+The pattern {(Contratacion_isServicios == '0') AND (Descripcion_isPrograma == '0') AND (Contratacion_isAdquisiciones == '1') AND (Plantilla_isLicitacion == '0')} describes 21 (2.9289%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0218% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9523%.
+
+Pattern: {(Contratacion_isServicios == '0') AND (Plantilla_isAdjudicacion == '1')}
+Count: [43979, 65]
+Target property's support: [46.0972%, 9.0656%]
+Dataset's support: 45.8209%
+Confidence: 99.8524%
+Interpretation:
+The pattern {(Contratacion_isServicios == '0') AND (Plantilla_isAdjudicacion == '1')} describes 43979 (46.0972%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 45.7533% of the whole dataset.
+The pattern {(Contratacion_isServicios == '0') AND (Plantilla_isAdjudicacion == '1')} describes 65 (9.0656%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0676% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.8524%.
+
+Pattern: {(Contratacion_isServicios == '0') AND (Descripcion_isPrograma == '0') AND (Plantilla_isAdjudicacion == '1')}
+Count: [43947, 64]
+Target property's support: [46.0636%, 8.9261%]
+Dataset's support: 45.7866%
+Confidence: 99.8546%
+Interpretation:
+The pattern {(Contratacion_isServicios == '0') AND (Descripcion_isPrograma == '0') AND (Plantilla_isAdjudicacion == '1')} describes 43947 (46.0636%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 45.7200% of the whole dataset.
+The pattern {(Contratacion_isServicios == '0') AND (Descripcion_isPrograma == '0') AND (Plantilla_isAdjudicacion == '1')} describes 64 (8.9261%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0666% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.8546%.
+
+Pattern: {(Contratacion_isAdquisiciones == '1') AND (Plantilla_isLicitacion == '0') AND (Descripcion_isSalud == '0') AND (Descripcion_isPrograma == '0')}
+Count: [43914, 18]
+Target property's support: [46.0290%, 2.5105%]
+Dataset's support: 45.7044%
+Confidence: 99.9590%
+Interpretation:
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Plantilla_isLicitacion == '0') AND (Descripcion_isSalud == '0') AND (Descripcion_isPrograma == '0')} describes 43914 (46.0290%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 45.6857% of the whole dataset.
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Plantilla_isLicitacion == '0') AND (Descripcion_isSalud == '0') AND (Descripcion_isPrograma == '0')} describes 18 (2.5105%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0187% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9590%.
+
+Pattern: {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isSalud == '0') AND (Plantilla_isLicitacion == '0')}
+Count: [43914, 18]
+Target property's support: [46.0290%, 2.5105%]
+Dataset's support: 45.7044%
+Confidence: 99.9590%
+Interpretation:
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isSalud == '0') AND (Plantilla_isLicitacion == '0')} describes 43914 (46.0290%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 45.6857% of the whole dataset.
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isSalud == '0') AND (Plantilla_isLicitacion == '0')} describes 18 (2.5105%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0187% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9590%.
+
+Pattern: {(Contratacion_isServicios == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isSalud == '0') AND (Descripcion_isPrograma == '0') AND (Plantilla_isLicitacion == '0')}
+Count: [43914, 18]
+Target property's support: [46.0290%, 2.5105%]
+Dataset's support: 45.7044%
+Confidence: 99.9590%
+Interpretation:
+The pattern {(Contratacion_isServicios == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isSalud == '0') AND (Descripcion_isPrograma == '0') AND (Plantilla_isLicitacion == '0')} describes 43914 (46.0290%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 45.6857% of the whole dataset.
+The pattern {(Contratacion_isServicios == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isSalud == '0') AND (Descripcion_isPrograma == '0') AND (Plantilla_isLicitacion == '0')} describes 18 (2.5105%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0187% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9590%.
+
+Pattern: {(Contratacion_isAdquisiciones == '1') AND (Plantilla_isLicitacion == '0') AND (Descripcion_isSalud == '0') AND (Descripcion_isMateri == '0')}
+Count: [43630, 15]
+Target property's support: [45.7314%, 2.0921%]
+Dataset's support: 45.4058%
+Confidence: 99.9656%
+Interpretation:
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Plantilla_isLicitacion == '0') AND (Descripcion_isSalud == '0') AND (Descripcion_isMateri == '0')} describes 43630 (45.7314%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 45.3902% of the whole dataset.
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Plantilla_isLicitacion == '0') AND (Descripcion_isSalud == '0') AND (Descripcion_isMateri == '0')} describes 15 (2.0921%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0156% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9656%.
+
+Pattern: {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isMateri == '0') AND (Plantilla_isLicitacion == '0') AND (Descripcion_isSuministro == '0')}
+Count: [43337, 15]
+Target property's support: [45.4242%, 2.0921%]
+Dataset's support: 45.1010%
+Confidence: 99.9654%
+Interpretation:
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isMateri == '0') AND (Plantilla_isLicitacion == '0') AND (Descripcion_isSuministro == '0')} describes 43337 (45.4242%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 45.0854% of the whole dataset.
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isMateri == '0') AND (Plantilla_isLicitacion == '0') AND (Descripcion_isSuministro == '0')} describes 15 (2.0921%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0156% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9654%.
+
+Pattern: {(Descripcion_isMateri == '0') AND (Contratacion_isServicios == '0') AND (Contratacion_isObraPublica == '0') AND (Correo_isGob == '1')}
+Count: [41660, 20]
+Target property's support: [43.6665%, 2.7894%]
+Dataset's support: 43.3616%
+Confidence: 99.9520%
+Interpretation:
+The pattern {(Descripcion_isMateri == '0') AND (Contratacion_isServicios == '0') AND (Contratacion_isObraPublica == '0') AND (Correo_isGob == '1')} describes 41660 (43.6665%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 43.3408% of the whole dataset.
+The pattern {(Descripcion_isMateri == '0') AND (Contratacion_isServicios == '0') AND (Contratacion_isObraPublica == '0') AND (Correo_isGob == '1')} describes 20 (2.7894%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0208% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9520%.
+
+Pattern: {(Contratacion_isServicios == '0') AND (Plantilla_isAdjudicacion == '1') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isSalud == '0')}
+Count: [41527, 19]
+Target property's support: [43.5271%, 2.6499%]
+Dataset's support: 43.2222%
+Confidence: 99.9543%
+Interpretation:
+The pattern {(Contratacion_isServicios == '0') AND (Plantilla_isAdjudicacion == '1') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isSalud == '0')} describes 41527 (43.5271%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 43.2024% of the whole dataset.
+The pattern {(Contratacion_isServicios == '0') AND (Plantilla_isAdjudicacion == '1') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isSalud == '0')} describes 19 (2.6499%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0198% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9543%.
+
+Pattern: {(Contratacion_isServicios == '0') AND (Descripcion_isPrograma == '0') AND (Plantilla_isAdjudicacion == '1') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isSalud == '0')}
+Count: [41496, 18]
+Target property's support: [43.4946%, 2.5105%]
+Dataset's support: 43.1889%
+Confidence: 99.9566%
+Interpretation:
+The pattern {(Contratacion_isServicios == '0') AND (Descripcion_isPrograma == '0') AND (Plantilla_isAdjudicacion == '1') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isSalud == '0')} describes 41496 (43.4946%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 43.1701% of the whole dataset.
+The pattern {(Contratacion_isServicios == '0') AND (Descripcion_isPrograma == '0') AND (Plantilla_isAdjudicacion == '1') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isSalud == '0')} describes 18 (2.5105%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0187% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9566%.
+
+Pattern: {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Plantilla_isAdjudicacion == '1') AND (Descripcion_isSalud == '0')}
+Count: [41496, 18]
+Target property's support: [43.4946%, 2.5105%]
+Dataset's support: 43.1889%
+Confidence: 99.9566%
+Interpretation:
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Plantilla_isAdjudicacion == '1') AND (Descripcion_isSalud == '0')} describes 41496 (43.4946%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 43.1701% of the whole dataset.
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Plantilla_isAdjudicacion == '1') AND (Descripcion_isSalud == '0')} describes 18 (2.5105%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0187% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9566%.
+
+Pattern: {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isMateri == '0') AND (Descripcion_isSalud == '0') AND (Plantilla_isAdjudicacion == '1')}
+Count: [41208, 13]
+Target property's support: [43.1927%, 1.8131%]
+Dataset's support: 42.8840%
+Confidence: 99.9685%
+Interpretation:
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isMateri == '0') AND (Descripcion_isSalud == '0') AND (Plantilla_isAdjudicacion == '1')} describes 41208 (43.1927%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 42.8705% of the whole dataset.
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isMateri == '0') AND (Descripcion_isSalud == '0') AND (Plantilla_isAdjudicacion == '1')} describes 13 (1.8131%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0135% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9685%.
+
+Pattern: {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Plantilla_isAdjudicacion == '1') AND (Descripcion_isSalud == '0') AND (Descripcion_isMateri == '0')}
+Count: [41208, 13]
+Target property's support: [43.1927%, 1.8131%]
+Dataset's support: 42.8840%
+Confidence: 99.9685%
+Interpretation:
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Plantilla_isAdjudicacion == '1') AND (Descripcion_isSalud == '0') AND (Descripcion_isMateri == '0')} describes 41208 (43.1927%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 42.8705% of the whole dataset.
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Plantilla_isAdjudicacion == '1') AND (Descripcion_isSalud == '0') AND (Descripcion_isMateri == '0')} describes 13 (1.8131%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0135% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9685%.
+
+Pattern: {(Descripcion_isMateri == '0') AND (Contratacion_isAdquisiciones == '1') AND (Correo_isGob == '1')}
+Count: [41102, 14]
+Target property's support: [43.0816%, 1.9526%]
+Dataset's support: 42.7748%
+Confidence: 99.9659%
+Interpretation:
+The pattern {(Descripcion_isMateri == '0') AND (Contratacion_isAdquisiciones == '1') AND (Correo_isGob == '1')} describes 41102 (43.0816%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 42.7602% of the whole dataset.
+The pattern {(Descripcion_isMateri == '0') AND (Contratacion_isAdquisiciones == '1') AND (Correo_isGob == '1')} describes 14 (1.9526%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0146% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9659%.
+
+Pattern: {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isSuministro == '0') AND (Correo_isGob == '1')}
+Count: [41092, 18]
+Target property's support: [43.0711%, 2.5105%]
+Dataset's support: 42.7686%
+Confidence: 99.9562%
+Interpretation:
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isSuministro == '0') AND (Correo_isGob == '1')} describes 41092 (43.0711%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 42.7498% of the whole dataset.
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isSuministro == '0') AND (Correo_isGob == '1')} describes 18 (2.5105%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0187% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9562%.
+
+Pattern: {(Descripcion_isPrograma == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isMateri == '0') AND (Correo_isGob == '1')}
+Count: [41083, 14]
+Target property's support: [43.0617%, 1.9526%]
+Dataset's support: 42.7550%
+Confidence: 99.9659%
+Interpretation:
+The pattern {(Descripcion_isPrograma == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isMateri == '0') AND (Correo_isGob == '1')} describes 41083 (43.0617%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 42.7405% of the whole dataset.
+The pattern {(Descripcion_isPrograma == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isMateri == '0') AND (Correo_isGob == '1')} describes 14 (1.9526%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0146% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9659%.
+
+Pattern: {(Contratacion_isServicios == '0') AND (Descripcion_isPrograma == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isMateri == '0') AND (Correo_isGob == '1')}
+Count: [41083, 14]
+Target property's support: [43.0617%, 1.9526%]
+Dataset's support: 42.7550%
+Confidence: 99.9659%
+Interpretation:
+The pattern {(Contratacion_isServicios == '0') AND (Descripcion_isPrograma == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isMateri == '0') AND (Correo_isGob == '1')} describes 41083 (43.0617%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 42.7405% of the whole dataset.
+The pattern {(Contratacion_isServicios == '0') AND (Descripcion_isPrograma == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isMateri == '0') AND (Correo_isGob == '1')} describes 14 (1.9526%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0146% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9659%.
+
+Pattern: {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isMateri == '0') AND (Correo_isGob == '1') AND (Descripcion_isSalud == '0')}
+Count: [41034, 11]
+Target property's support: [43.0103%, 1.5342%]
+Dataset's support: 42.7009%
+Confidence: 99.9732%
+Interpretation:
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isMateri == '0') AND (Correo_isGob == '1') AND (Descripcion_isSalud == '0')} describes 41034 (43.0103%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 42.6895% of the whole dataset.
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isMateri == '0') AND (Correo_isGob == '1') AND (Descripcion_isSalud == '0')} describes 11 (1.5342%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0114% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9732%.
+
+Pattern: {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isSalud == '0') AND (Descripcion_isMateri == '0') AND (Correo_isGob == '1')}
+Count: [41015, 11]
+Target property's support: [42.9904%, 1.5342%]
+Dataset's support: 42.6812%
+Confidence: 99.9732%
+Interpretation:
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isSalud == '0') AND (Descripcion_isMateri == '0') AND (Correo_isGob == '1')} describes 41015 (42.9904%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 42.6697% of the whole dataset.
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isSalud == '0') AND (Descripcion_isMateri == '0') AND (Correo_isGob == '1')} describes 11 (1.5342%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0114% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9732%.
+
+Pattern: {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isMateri == '0') AND (Descripcion_isPrograma == '0') AND (Descripcion_isSalud == '0') AND (Correo_isGob == '1')}
+Count: [41015, 11]
+Target property's support: [42.9904%, 1.5342%]
+Dataset's support: 42.6812%
+Confidence: 99.9732%
+Interpretation:
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isMateri == '0') AND (Descripcion_isPrograma == '0') AND (Descripcion_isSalud == '0') AND (Correo_isGob == '1')} describes 41015 (42.9904%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 42.6697% of the whole dataset.
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isMateri == '0') AND (Descripcion_isPrograma == '0') AND (Descripcion_isSalud == '0') AND (Correo_isGob == '1')} describes 11 (1.5342%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0114% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9732%.
+
+Pattern: {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isMateri == '0') AND (Descripcion_isSalud == '0') AND (Correo_isGob == '1')}
+Count: [41015, 11]
+Target property's support: [42.9904%, 1.5342%]
+Dataset's support: 42.6812%
+Confidence: 99.9732%
+Interpretation:
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isMateri == '0') AND (Descripcion_isSalud == '0') AND (Correo_isGob == '1')} describes 41015 (42.9904%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 42.6697% of the whole dataset.
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isMateri == '0') AND (Descripcion_isSalud == '0') AND (Correo_isGob == '1')} describes 11 (1.5342%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0114% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9732%.
+
+Pattern: {(Descripcion_isPrograma == '0') AND (Descripcion_isMateri == '0') AND (Procedimiento_isIntTLC == '0') AND (Contratacion_isAdquisiciones == '1')}
+Count: [40948, 20]
+Target property's support: [42.9202%, 2.7894%]
+Dataset's support: 42.6208%
+Confidence: 99.9512%
+Interpretation:
+The pattern {(Descripcion_isPrograma == '0') AND (Descripcion_isMateri == '0') AND (Procedimiento_isIntTLC == '0') AND (Contratacion_isAdquisiciones == '1')} describes 40948 (42.9202%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 42.6000% of the whole dataset.
+The pattern {(Descripcion_isPrograma == '0') AND (Descripcion_isMateri == '0') AND (Procedimiento_isIntTLC == '0') AND (Contratacion_isAdquisiciones == '1')} describes 20 (2.7894%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0208% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9512%.
+
+Pattern: {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isSuministro == '0') AND (Descripcion_isSalud == '0') AND (Descripcion_isMateri == '0') AND (Plantilla_isAdjudicacion == '1')}
+Count: [40915, 13]
+Target property's support: [42.8856%, 1.8131%]
+Dataset's support: 42.5792%
+Confidence: 99.9682%
+Interpretation:
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isSuministro == '0') AND (Descripcion_isSalud == '0') AND (Descripcion_isMateri == '0') AND (Plantilla_isAdjudicacion == '1')} describes 40915 (42.8856%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 42.5657% of the whole dataset.
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isSuministro == '0') AND (Descripcion_isSalud == '0') AND (Descripcion_isMateri == '0') AND (Plantilla_isAdjudicacion == '1')} describes 13 (1.8131%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0135% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9682%.
+
+Pattern: {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isMateri == '0') AND (Correo_isGob == '1') AND (Descripcion_isSalud == '0') AND (Descripcion_isSuministro == '0')}
+Count: [40745, 10]
+Target property's support: [42.7074%, 1.3947%]
+Dataset's support: 42.3992%
+Confidence: 99.9755%
+Interpretation:
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isMateri == '0') AND (Correo_isGob == '1') AND (Descripcion_isSalud == '0') AND (Descripcion_isSuministro == '0')} describes 40745 (42.7074%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 42.3888% of the whole dataset.
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isMateri == '0') AND (Correo_isGob == '1') AND (Descripcion_isSalud == '0') AND (Descripcion_isSuministro == '0')} describes 10 (1.3947%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0104% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9755%.
+
+Pattern: {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isSalud == '0') AND (Correo_isGob == '1') AND (Descripcion_isMateri == '0') AND (Descripcion_isSuministro == '0')}
+Count: [40745, 10]
+Target property's support: [42.7074%, 1.3947%]
+Dataset's support: 42.3992%
+Confidence: 99.9755%
+Interpretation:
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isSalud == '0') AND (Correo_isGob == '1') AND (Descripcion_isMateri == '0') AND (Descripcion_isSuministro == '0')} describes 40745 (42.7074%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 42.3888% of the whole dataset.
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isSalud == '0') AND (Correo_isGob == '1') AND (Descripcion_isMateri == '0') AND (Descripcion_isSuministro == '0')} describes 10 (1.3947%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0104% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9755%.
+
+Pattern: {(Procedimiento_isNacional == '1') AND (Contratacion_isServicios == '0') AND (Descripcion_isPrograma == '0') AND (Contratacion_isObraPublica == '0')}
+Count: [34700, 26]
+Target property's support: [36.3713%, 3.6262%]
+Dataset's support: 36.1270%
+Confidence: 99.9251%
+Interpretation:
+The pattern {(Procedimiento_isNacional == '1') AND (Contratacion_isServicios == '0') AND (Descripcion_isPrograma == '0') AND (Contratacion_isObraPublica == '0')} describes 34700 (36.3713%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 36.1000% of the whole dataset.
+The pattern {(Procedimiento_isNacional == '1') AND (Contratacion_isServicios == '0') AND (Descripcion_isPrograma == '0') AND (Contratacion_isObraPublica == '0')} describes 26 (3.6262%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0270% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9251%.
+
+Pattern: {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isMateri == '0') AND (Descripcion_isPrograma == '0') AND (Descripcion_isSuministro == '0') AND (Entidad_count <= 4151)}
+Count: [34239, 9]
+Target property's support: [35.8881%, 1.2552%]
+Dataset's support: 35.6297%
+Confidence: 99.9737%
+Interpretation:
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isMateri == '0') AND (Descripcion_isPrograma == '0') AND (Descripcion_isSuministro == '0') AND (Entidad_count <= 4151)} describes 34239 (35.8881%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 35.6204% of the whole dataset.
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isMateri == '0') AND (Descripcion_isPrograma == '0') AND (Descripcion_isSuministro == '0') AND (Entidad_count <= 4151)} describes 9 (1.2552%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0094% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9737%.
+
+Pattern: {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isMateri == '0') AND (Descripcion_isSuministro == '0') AND (Entidad_count <= 4151)}
+Count: [34239, 9]
+Target property's support: [35.8881%, 1.2552%]
+Dataset's support: 35.6297%
+Confidence: 99.9737%
+Interpretation:
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isMateri == '0') AND (Descripcion_isSuministro == '0') AND (Entidad_count <= 4151)} describes 34239 (35.8881%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 35.6204% of the whole dataset.
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isMateri == '0') AND (Descripcion_isSuministro == '0') AND (Entidad_count <= 4151)} describes 9 (1.2552%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0094% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9737%.
+
+Pattern: {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isMateri == '0') AND (Descripcion_isSuministro == '0') AND (Descripcion_isPrograma == '0') AND (Entidad_count <= 4151)}
+Count: [34239, 9]
+Target property's support: [35.8881%, 1.2552%]
+Dataset's support: 35.6297%
+Confidence: 99.9737%
+Interpretation:
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isMateri == '0') AND (Descripcion_isSuministro == '0') AND (Descripcion_isPrograma == '0') AND (Entidad_count <= 4151)} describes 34239 (35.8881%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 35.6204% of the whole dataset.
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isMateri == '0') AND (Descripcion_isSuministro == '0') AND (Descripcion_isPrograma == '0') AND (Entidad_count <= 4151)} describes 9 (1.2552%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0094% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9737%.
+
+Pattern: {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isSuministro == '0') AND (Descripcion_isMateri == '0') AND (Entidad_count <= 4151)}
+Count: [34239, 9]
+Target property's support: [35.8881%, 1.2552%]
+Dataset's support: 35.6297%
+Confidence: 99.9737%
+Interpretation:
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isSuministro == '0') AND (Descripcion_isMateri == '0') AND (Entidad_count <= 4151)} describes 34239 (35.8881%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 35.6204% of the whole dataset.
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isSuministro == '0') AND (Descripcion_isMateri == '0') AND (Entidad_count <= 4151)} describes 9 (1.2552%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0094% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9737%.
+
+Pattern: {(Descripcion_isPrograma == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isSalud == '0') AND (Descripcion_isMateri == '0') AND (Procedimiento_isNacional == '1')}
+Count: [33768, 16]
+Target property's support: [35.3944%, 2.2315%]
+Dataset's support: 35.1470%
+Confidence: 99.9526%
+Interpretation:
+The pattern {(Descripcion_isPrograma == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isSalud == '0') AND (Descripcion_isMateri == '0') AND (Procedimiento_isNacional == '1')} describes 33768 (35.3944%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 35.1304% of the whole dataset.
+The pattern {(Descripcion_isPrograma == '0') AND (Contratacion_isAdquisiciones == '1') AND (Descripcion_isSalud == '0') AND (Descripcion_isMateri == '0') AND (Procedimiento_isNacional == '1')} describes 16 (2.2315%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0166% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9526%.
+
+Pattern: {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Entidad_count <= 3930)}
+Count: [32261, 10]
+Target property's support: [33.8148%, 1.3947%]
+Dataset's support: 33.5730%
+Confidence: 99.9690%
+Interpretation:
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Entidad_count <= 3930)} describes 32261 (33.8148%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 33.5626% of the whole dataset.
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Entidad_count <= 3930)} describes 10 (1.3947%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0104% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9690%.
+
+Pattern: {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isSalud == '0') AND (Descripcion_isPrograma == '0') AND (Entidad_count <= 3930)}
+Count: [32195, 10]
+Target property's support: [33.7456%, 1.3947%]
+Dataset's support: 33.5043%
+Confidence: 99.9689%
+Interpretation:
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isSalud == '0') AND (Descripcion_isPrograma == '0') AND (Entidad_count <= 3930)} describes 32195 (33.7456%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 33.4939% of the whole dataset.
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isSalud == '0') AND (Descripcion_isPrograma == '0') AND (Entidad_count <= 3930)} describes 10 (1.3947%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0104% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9689%.
+
+Pattern: {(Descripcion_isPrograma == '0') AND (Contratacion_isAdquisiciones == '1') AND (Entidad_count <= 3930) AND (Descripcion_isSuministro == '0')}
+Count: [32164, 9]
+Target property's support: [33.7131%, 1.2552%]
+Dataset's support: 33.4710%
+Confidence: 99.9720%
+Interpretation:
+The pattern {(Descripcion_isPrograma == '0') AND (Contratacion_isAdquisiciones == '1') AND (Entidad_count <= 3930) AND (Descripcion_isSuministro == '0')} describes 32164 (33.7131%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 33.4616% of the whole dataset.
+The pattern {(Descripcion_isPrograma == '0') AND (Contratacion_isAdquisiciones == '1') AND (Entidad_count <= 3930) AND (Descripcion_isSuministro == '0')} describes 9 (1.2552%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0094% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9720%.
+
+Pattern: {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isSuministro == '0') AND (Entidad_count <= 4151) AND (Correo_isGob == '1')}
+Count: [31436, 4]
+Target property's support: [32.9501%, 0.5579%]
+Dataset's support: 32.7084%
+Confidence: 99.9873%
+Interpretation:
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isSuministro == '0') AND (Entidad_count <= 4151) AND (Correo_isGob == '1')} describes 31436 (32.9501%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 32.7043% of the whole dataset.
+The pattern {(Contratacion_isAdquisiciones == '1') AND (Descripcion_isPrograma == '0') AND (Descripcion_isSuministro == '0') AND (Entidad_count <= 4151) AND (Correo_isGob == '1')} describes 4 (0.5579%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0042% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9873%.
+
+Pattern: {(Contratacion_isServicios == '0') AND (Plantilla_isLicitacion == '0') AND (Descripcion_isPrograma == '0') AND (Contratacion_isAdquisiciones == '1') AND (Entidad_count <= 3930)}
+Count: [30059, 8]
+Target property's support: [31.5067%, 1.1158%]
+Dataset's support: 31.2800%
+Confidence: 99.9734%
+Interpretation:
+The pattern {(Contratacion_isServicios == '0') AND (Plantilla_isLicitacion == '0') AND (Descripcion_isPrograma == '0') AND (Contratacion_isAdquisiciones == '1') AND (Entidad_count <= 3930)} describes 30059 (31.5067%) of the objects in the class {Descripcion_isMantenimiento == '0'}. These objects are 31.2717% of the whole dataset.
+The pattern {(Contratacion_isServicios == '0') AND (Plantilla_isLicitacion == '0') AND (Descripcion_isPrograma == '0') AND (Contratacion_isAdquisiciones == '1') AND (Entidad_count <= 3930)} describes 8 (1.1158%) of the objects outside the class {Descripcion_isMantenimiento == '0'}. These objects are 0.0083% of the whole dataset.
+The probability that an object fulfills the property {Descripcion_isMantenimiento == '0'} given that the object fulfills the pattern is 99.9734%.
+
+That's all folks!
