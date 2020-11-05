@@ -1,0 +1,54 @@
+---
+title: "R Notebook"
+output: html_notebook
+editor_options: 
+  chunk_output_type: console
+---
+
+
+```{r}
+library(dplyr)
+install.packages("graph")
+library("graph")
+library(reshape)
+ library("scmamp")
+ library("ggplot2")
+install.packages("Rgraphviz")
+ library("Rgraphviz")
+
+
+```
+
+
+```{r}
+assignment5MLresults <- read.csv("~/Downloads/assignment5MLresults.csv")
+
+table(assignment5MLresults$preprocessing)
+
+min_max_df <- assignment5MLresults %>% filter(preprocessing == "raw")
+std_df <- assignment5MLresults %>% filter(preprocessing == "std")
+min_max_df <-assignment5MLresults %>% filter(preprocessing == "min_max")
+minmax_std_df <- assignment5MLresults %>% filter(preprocessing == "minmax_std")
+```
+
+
+```{r}
+
+min_max_df_m <- cast(min_max_df, folder_name~classifier,value = "auc")
+std_df_m <- cast(std_df, folder_name~classifier,value = "auc")
+min_max_df_m <- cast(min_max_df, folder_name~classifier,value = "auc")
+minmax_std_df_m <- cast(minmax_std_df, folder_name~classifier,value = "auc")
+
+
+```
+
+
+
+```{r}
+
+plotCD(data.matrix(min_max_df_m)[,2:5], alpha=0.05, cex=1.25)
+
+test <- nemenyiTest(min_max_df_m, alpha=0.05)
+scmamp::nemenyiTest(test)	
+```
+
