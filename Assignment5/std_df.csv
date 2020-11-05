@@ -1,4 +1,4 @@
-classifer_name,dataset_name,accuracy
+classifier_name,dataset_name,accuracy
 ocSVM,dermatology-6,0.95
 ISOF,dermatology-6,0.860207101
 BRM,dermatology-6,1
