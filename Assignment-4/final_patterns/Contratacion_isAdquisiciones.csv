@@ -1,0 +1,16 @@
+"","Pattern","Target_support","Complement_support","Support_difference","Target_coverage","Complement_coverage","Coverage_difference","Confidence"
+"4","Entidad_isCiudadDeMexico = '0' Correo_isGob = '1' Plantilla_isAdjudicacion = '1'",0.6,0.19,0.41,28501,8970,19531,0.760614875503723
+"5","Plantilla_isAdjudicacion = '1' Entidad_isCiudadDeMexico = '0' Correo_isGob = '1'",0.6,0.19,0.41,28501,8970,19531,0.760614875503723
+"6","Correo_isGob = '1' Entidad_isCiudadDeMexico = '0' Plantilla_isAdjudicacion = '1'",0.6,0.19,0.41,28501,8970,19531,0.760614875503723
+"7","Plantilla_isAdjudicacion = '1' Entidad_isCiudadDeMexico = '0' Correo_isGob = '1'",0.6,0.19,0.41,28501,8970,19531,0.760614875503723
+"8","Plantilla_isAdjudicacion = '1' Descripcion_isPrograma = '0' Entidad_isCiudadDeMexico = '0'",0.65,0.29,0.36,30851,13921,16930,0.689069061020281
+"9","Entidad_isCiudadDeMexico = '0' Plantilla_isAdjudicacion = '1' Descripcion_isProfesional = '0'",0.65,0.29,0.36,30871,13818,17053,0.690796392848352
+"10","Plantilla_isInvitacion = '0' Entidad_isCiudadDeMexico = '0' Plantilla_isAdjudicacion = '1'",0.65,0.29,0.36,30874,14030,16844,0.687555674327454
+"11","Entidad_isCiudadDeMexico = '0' Plantilla_isLicitacion = '0' Plantilla_isAdjudicacion = '1'",0.65,0.29,0.36,30874,14030,16844,0.687555674327454
+"12","Entidad_isCiudadDeMexico = '0' Plantilla_isInvitacion = '0' Plantilla_isLicitacion = '0'",0.65,0.3,0.35,31083,14403,16680,0.683353119641208
+"13","Entidad_isCiudadDeMexico = '0' Plantilla_isInvitacion = '0' Plantilla_isLicitacion = '0'",0.65,0.3,0.35,31083,14403,16680,0.683353119641208
+"14","Entidad_isCiudadDeMexico = '0' Correo_isGob = '1' Descripcion_isProfesional = '0'",0.66,0.34,0.32,31537,16528,15009,0.656132320815562
+"1","Publicacion_isTrimestre1 = '0' Plantilla_isAdjudicacion = '1' Entidad_isCiudadDeMexico = '0'",0.45,0.15,0.3,21684,7445,14239,0.744412784510282
+"2","Publicacion_isTrimestre1 = '0' Entidad_isCiudadDeMexico = '0' Plantilla_isAdjudicacion = '1'",0.45,0.15,0.3,21684,7445,14239,0.744412784510282
+"3","Publicacion_isTrimestre1 = '0' Entidad_isCiudadDeMexico = '0' Plantilla_isAdjudicacion = '1'",0.45,0.15,0.3,21684,7445,14239,0.744412784510282
+"15","Plantilla_isLicitacion = '0' Entidad_isCiudadDeMexico = '0' Descripcion_isPrograma = '0'",0.68,0.38,0.3,32367,18138,14229,0.640867240867241

@@ -1,0 +1,39 @@
+"","Pattern","Target_support","Complement_support","Support_difference","Target_coverage","Complement_coverage","Coverage_difference","Confidence"
+"37","plantilla_islicitacion = '0' contratacion_isobrapublica = '0' contratacion_isadquisiciones = '0'",0.45,0.04,0.41,35907,644,35263,0.982380783015513
+"28","contratacion_isadquisiciones = '0' plantilla_islicitacion = '0' plantilla_isadjudicacion = '1'",0.43,0.02,0.41,34417,349,34068,0.989961456595524
+"29","contratacion_isadquisiciones = '0' plantilla_isinvitacion = '0' plantilla_isadjudicacion = '1'",0.43,0.02,0.41,34417,349,34068,0.989961456595524
+"30","plantilla_isinvitacion = '0' contratacion_isadquisiciones = '0' plantilla_isadjudicacion = '1'",0.43,0.02,0.41,34417,349,34068,0.989961456595524
+"31","contratacion_isadquisiciones = '0' plantilla_islicitacion = '0' plantilla_isadjudicacion = '1'",0.43,0.02,0.41,34417,349,34068,0.989961456595524
+"32","contratacion_isadquisiciones = '0' plantilla_isinvitacion = '0' plantilla_isadjudicacion = '1'",0.43,0.02,0.41,34417,349,34068,0.989961456595524
+"33","plantilla_islicitacion = '0' contratacion_isadquisiciones = '0' plantilla_isadjudicacion = '1'",0.43,0.02,0.41,34417,349,34068,0.989961456595524
+"34","contratacion_isadquisiciones = '0' plantilla_isadjudicacion = '1'",0.43,0.02,0.41,34417,349,34068,0.989961456595524
+"36","plantilla_islicitacion = '0' contratacion_isobrapublica = '0' contratacion_isservicios = '1'",0.44,0.04,0.4,35307,616,34691,0.982852211674971
+"35","contratacion_isadquisiciones = '0' plantilla_islicitacion = '0' plantilla_isinvitacion = '0'",0.43,0.04,0.39,34944,635,34309,0.98215239326569
+"9","contratacion_isadquisiciones = '0' plantilla_isadjudicacion = '1' contratacion_isservicios = '1'",0.4,0.02,0.38,32012,330,31682,0.989796549378517
+"10","contratacion_isadquisiciones = '0' plantilla_isadjudicacion = '1' contratacion_isservicios = '1'",0.4,0.02,0.38,32012,330,31682,0.989796549378517
+"11","plantilla_islicitacion = '0' plantilla_isadjudicacion = '1' contratacion_isservicios = '1'",0.4,0.02,0.38,32012,330,31682,0.989796549378517
+"12","contratacion_isservicios = '1' plantilla_isinvitacion = '0' plantilla_isadjudicacion = '1'",0.4,0.02,0.38,32012,330,31682,0.989796549378517
+"13","contratacion_isservicios = '1' plantilla_isinvitacion = '0' plantilla_isadjudicacion = '1'",0.4,0.02,0.38,32012,330,31682,0.989796549378517
+"14","contratacion_isservicios = '1' plantilla_islicitacion = '0' plantilla_isadjudicacion = '1'",0.4,0.02,0.38,32012,330,31682,0.989796549378517
+"15","contratacion_isservicios = '1' plantilla_islicitacion = '0' plantilla_isadjudicacion = '1'",0.4,0.02,0.38,32012,330,31682,0.989796549378517
+"16","contratacion_isservicios = '1' plantilla_isinvitacion = '0' plantilla_isadjudicacion = '1'",0.4,0.02,0.38,32012,330,31682,0.989796549378517
+"17","contratacion_isservicios = '1' plantilla_islicitacion = '0' plantilla_isadjudicacion = '1'",0.4,0.02,0.38,32012,330,31682,0.989796549378517
+"18","contratacion_isadquisiciones = '0' plantilla_isadjudicacion = '1' contratacion_isservicios = '1'",0.4,0.02,0.38,32012,330,31682,0.989796549378517
+"19","plantilla_islicitacion = '0' contratacion_isservicios = '1' plantilla_isadjudicacion = '1'",0.4,0.02,0.38,32012,330,31682,0.989796549378517
+"20","plantilla_isadjudicacion = '1' contratacion_isservicios = '1'",0.4,0.02,0.38,32012,330,31682,0.989796549378517
+"22","contratacion_isobrapublica = '0' contratacion_isadquisiciones = '0' plantilla_isadjudicacion = '1'",0.4,0.02,0.38,32567,348,32219,0.98942731277533
+"23","plantilla_isadjudicacion = '1' contratacion_isadquisiciones = '0' contratacion_isobrapublica = '0'",0.4,0.02,0.38,32567,348,32219,0.98942731277533
+"24","plantilla_isadjudicacion = '1' contratacion_isadquisiciones = '0' contratacion_isobrapublica = '0'",0.4,0.02,0.38,32567,348,32219,0.98942731277533
+"38","contratacion_isobrapublica = '0' contratacion_isadquisiciones = '0' contratacion_isservicios = '1'",0.48,0.1,0.38,38906,1478,37428,0.963401347068146
+"21","contratacion_isservicios = '1' plantilla_isinvitacion = '0' plantilla_islicitacion = '0'",0.4,0.04,0.36,32485,588,31897,0.982221147159314
+"8","entidad_count > 1877.00 contratacion_isadquisiciones = '0' plantilla_isadjudicacion = '1'",0.36,0.02,0.34,29049,263,28786,0.991027565502183
+"25","contratacion_isobrapublica = '0' entidad_count > 1877.00 contratacion_isadquisiciones = '0'",0.41,0.07,0.34,33059,1144,31915,0.966552641581148
+"26","entidad_count > 1877.00 contratacion_isadquisiciones = '0' plantilla_isinvitacion = '0'",0.42,0.09,0.33,33871,1363,32508,0.96131577453596
+"27","entidad_count > 1877.00 contratacion_isadquisiciones = '0' plantilla_isinvitacion = '0'",0.42,0.09,0.33,33871,1363,32508,0.96131577453596
+"7","plantilla_islicitacion = '0' contratacion_isservicios = '1' publicacion_istrimestre3 = '0'",0.35,0.03,0.32,28471,507,27964,0.982503968527849
+"1","plantilla_islicitacion = '0' contratacion_isadquisiciones = '0' correo_isgob = '1'",0.35,0.04,0.31,28166,553,27613,0.980744454890491
+"2","plantilla_islicitacion = '0' contratacion_isadquisiciones = '0' correo_isgob = '1'",0.35,0.04,0.31,28166,553,27613,0.980744454890491
+"3","contratacion_isadquisiciones = '0' plantilla_islicitacion = '0' correo_isgob = '1'",0.35,0.04,0.31,28166,553,27613,0.980744454890491
+"4","plantilla_islicitacion = '0' contratacion_isadquisiciones = '0' correo_isgob = '1'",0.35,0.04,0.31,28166,553,27613,0.980744454890491
+"5","contratacion_isadquisiciones = '0' correo_isgob = '1' plantilla_islicitacion = '0'",0.35,0.04,0.31,28166,553,27613,0.980744454890491
+"6","plantilla_islicitacion = '0' contratacion_isadquisiciones = '0' correo_isgob = '1'",0.35,0.04,0.31,28166,553,27613,0.980744454890491
