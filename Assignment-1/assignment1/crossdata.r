@@ -1,0 +1,6 @@
+csv1 <- read.csv("index_dmc.csv", header = TRUE)
+csv2 <- read.csv("diff.csv", header = TRUE)
+rownames(csv1) <- stringi::stri_c(csv1$fingerprint, csv1$minutia, sep = "#")
+rownames(csv2) <- stringi::stri_c(csv2$fingerprint, csv2$minutia, sep = "#")
+crossedData <- cbind.data.frame(csv2, score_change = csv1[rownames(csv2), "score_change"])
+write.csv(crossedData, "crossedData.csv")
