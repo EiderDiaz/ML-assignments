@@ -8,7 +8,6 @@ editor_options:
 
 ```{r}
 library(dplyr)
-install.packages("graph")
 library("graph")
 library(reshape)
  library("scmamp")
@@ -16,6 +15,7 @@ library(reshape)
 install.packages("Rgraphviz")
  library("Rgraphviz")
 
+install.packages("/Users/Eider/Downloads/graph_1.68.0.tgz",repos=NULL)
 
 ```
 
@@ -25,10 +25,9 @@ assignment5MLresults <- read.csv("~/Downloads/assignment5MLresults.csv")
 
 table(assignment5MLresults$preprocessing)
 
-min_max_df <- assignment5MLresults %>% filter(preprocessing == "raw")
+raw_df <- assignment5MLresults %>% filter(preprocessing == "raw")
 std_df <- assignment5MLresults %>% filter(preprocessing == "std")
 min_max_df <-assignment5MLresults %>% filter(preprocessing == "min_max")
-minmax_std_df <- assignment5MLresults %>% filter(preprocessing == "minmax_std")
 ```
 
 
@@ -46,9 +45,31 @@ minmax_std_df_m <- cast(minmax_std_df, folder_name~classifier,value = "auc")
 
 ```{r}
 
-plotCD(data.matrix(min_max_df_m)[,2:5], alpha=0.05, cex=1.25)
+plotdici <- plotCD(min_max_df_m, alpha=0.05, cex=1.25)
 
+row.names(min_max_df_m) <- min_max_df_m$folder_name
+ min_max_df_m$folder_name <- NULL
 test <- nemenyiTest(min_max_df_m, alpha=0.05)
 scmamp::nemenyiTest(test)	
+```
+
+
+```{r}
+raw_df <- data.frame(cbind(classifer=raw_df$classifier,dataset=raw_df$folder_name,auc=raw_df$auc))
+std_df <- data.frame(cbind(classifer=std_df$classifier,dataset=std_df$folder_name,auc=std_df$auc))
+min_max_df <-data.frame(cbind(classifer=min_max_df$classifier,dataset=min_max_df$folder_name,auc=min_max_df$auc))
+
+write.csv(raw_df,"raw_df.csv")
+write.csv(std_df,"std_df.csv")
+write.csv(min_max_df,"min_max_df.csv")
+
+
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+
+BiocManager::install("graph")
+BiocManager::install("Rgraphviz")
+
+
 ```
 
