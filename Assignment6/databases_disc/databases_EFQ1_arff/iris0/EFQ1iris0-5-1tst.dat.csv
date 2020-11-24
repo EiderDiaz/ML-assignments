@@ -1,0 +1,78 @@
+@relation ./ML-assignments/Assignment6/databases_disc/databases_EFQ1_arff/iris0/EFQ1iris0-5-1tst.dat
+
+@attribute  numeric
+@attribute 0 numeric
+@attribute 1 numeric
+@attribute 2 numeric
+@attribute 3 numeric
+@attribute Class {' negative',' positive'}
+@data
+0,1.0,2.0,1.0,1.0,' positiv
+1,2.0,2.0,2.0,1.0,' positiv
+2,1.0,2.0,1.0,1.0,' positiv
+3,0.0,1.0,1.0,0.0,' positiv
+4,0.0,1.0,1.0,0.0,' positiv
+5,0.0,0.0,0.0,1.0,' positiv
+6,1.0,2.0,1.0,1.0,' positiv
+7,0.0,1.0,1.0,0.0,' positiv
+8,1.0,2.0,1.0,2.0,' positiv
+9,2.0,1.0,2.0,2.0,' negativ
+10,2.0,1.0,2.0,2.0,' negativ
+11,2.0,1.0,2.0,2.0,' negativ
+12,2.0,1.0,2.0,2.0,' negativ
+13,2.0,0.0,2.0,2.0,' negativ
+14,2.0,1.0,2.0,2.0,' negativ
+15,2.0,0.0,2.0,2.0,' negativ
+16,2.0,0.0,2.0,2.0,' negativ
+17,1.0,0.0,2.0,2.0,' negativ
+18,2.0,0.0,2.0,2.0,' negativ
+19,2.0,2.0,2.0,2.0,' negativ
+20,2.0,0.0,2.0,2.0,' negativ
+21,2.0,0.0,2.0,2.0,' negativ
+22,2.0,1.0,2.0,2.0,' negativ
+23,2.0,2.0,2.0,2.0,' negativ
+24,2.0,0.0,2.0,2.0,' negativ
+25,2.0,1.0,2.0,2.0,' negativ
+26,2.0,0.0,2.0,2.0,' negativ
+27,2.0,0.0,2.0,2.0,' negativ
+28,2.0,0.0,2.0,2.0,' negativ
+29,1.0,2.0,0.0,1.0,' positiv
+30,0.0,0.0,0.0,1.0,' positiv
+31,0.0,1.0,1.0,1.0,' positiv
+32,1.0,2.0,0.0,1.0,' positiv
+33,1.0,2.0,2.0,2.0,' positiv
+34,1.0,1.0,1.0,1.0,' positiv
+35,0.0,0.0,0.0,1.0,' positiv
+36,0.0,1.0,1.0,1.0,' positiv
+37,0.0,0.0,0.0,0.0,' positiv
+38,0.0,0.0,0.0,0.0,' positiv
+39,2.0,2.0,1.0,2.0,' positiv
+40,1.0,2.0,0.0,2.0,' positiv
+41,1.0,2.0,0.0,1.0,' positiv
+42,1.0,1.0,2.0,1.0,' positiv
+43,1.0,2.0,1.0,2.0,' positiv
+44,0.0,2.0,0.0,1.0,' positiv
+45,1.0,1.0,2.0,2.0,' positiv
+46,0.0,1.0,2.0,1.0,' positiv
+47,1.0,0.0,1.0,1.0,' positiv
+48,1.0,1.0,1.0,2.0,' positiv
+49,1.0,2.0,1.0,1.0,' positiv
+50,1.0,1.0,0.0,1.0,' positiv
+51,0.0,1.0,1.0,1.0,' positiv
+52,0.0,1.0,1.0,1.0,' positiv
+53,1.0,1.0,1.0,2.0,' positiv
+54,1.0,2.0,1.0,0.0,' positiv
+55,2.0,2.0,0.0,1.0,' positiv
+56,1.0,1.0,0.0,1.0,' positiv
+57,2.0,2.0,0.0,1.0,' positiv
+58,1.0,1.0,1.0,1.0,' positiv
+59,1.0,2.0,0.0,1.0,' positiv
+60,0.0,0.0,0.0,1.0,' positiv
+61,1.0,2.0,2.0,2.0,' positiv
+62,0.0,0.0,0.0,1.0,' positiv
+63,0.0,1.0,0.0,1.0,' positiv
+64,1.0,2.0,1.0,1.0,' positiv
+65,1.0,1.0,0.0,1.0,' positiv
+66,0.0,1.0,0.0,1.0,' positiv
+67,2.0,2.0,0.0,1.0,' positiv
+68,0.0,1.0,0.0,1.0,' positiv
