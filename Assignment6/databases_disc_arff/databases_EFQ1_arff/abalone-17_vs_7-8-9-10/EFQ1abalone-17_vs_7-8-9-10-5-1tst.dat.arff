@@ -20,7 +20,7 @@
 @attribute attr4 {0.0,1.0,2.0}
 @attribute attr5 {0.0,1.0,2.0}
 @attribute attr6 {0.0,1.0,2.0}
-@attribute attr7 {0.0}
+@attribute attr7 {0.0,1.0}
 @attribute Class {' negative',' positive'}
 
 @data
