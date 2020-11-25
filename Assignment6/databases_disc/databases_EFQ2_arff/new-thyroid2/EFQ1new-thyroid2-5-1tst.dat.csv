@@ -1,0 +1,79 @@
+@relation ./ML-assignments/Assignment6/databases_disc/databases_EFQ2_arff/new-thyroid2/EFQ1new-thyroid2-5-1tst.dat
+
+@attribute attr0 numeric
+@attribute attr1 numeric
+@attribute attr2 numeric
+@attribute attr3 numeric
+@attribute attr4 numeric
+@attribute attrClass {' negative',' positive'}
+@data
+1.0,1.0,0.0,2.0,2.0,' negativ
+2.0,0.0,0.0,1.0,2.0,' negativ
+1.0,1.0,0.0,0.0,1.0,' negativ
+1.0,0.0,1.0,2.0,2.0,' negativ
+1.0,1.0,1.0,1.0,1.0,' negativ
+0.0,0.0,0.0,2.0,1.0,' negativ
+2.0,1.0,0.0,2.0,2.0,' negativ
+2.0,0.0,1.0,0.0,2.0,' negativ
+2.0,0.0,1.0,1.0,2.0,' negativ
+1.0,1.0,1.0,0.0,1.0,' negativ
+2.0,1.0,1.0,2.0,2.0,' negativ
+2.0,1.0,1.0,0.0,2.0,' negativ
+2.0,0.0,1.0,1.0,2.0,' negativ
+2.0,2.0,1.0,2.0,2.0,' negativ
+2.0,0.0,1.0,2.0,2.0,' negativ
+1.0,1.0,0.0,2.0,1.0,' negativ
+1.0,0.0,1.0,2.0,2.0,' negativ
+1.0,0.0,0.0,2.0,2.0,' negativ
+1.0,0.0,0.0,1.0,2.0,' negativ
+1.0,1.0,0.0,2.0,1.0,' negativ
+1.0,0.0,0.0,2.0,2.0,' negativ
+2.0,1.0,1.0,2.0,1.0,' negativ
+2.0,0.0,1.0,2.0,2.0,' negativ
+2.0,0.0,0.0,1.0,2.0,' negativ
+1.0,0.0,0.0,0.0,1.0,' negativ
+2.0,1.0,0.0,2.0,2.0,' negativ
+1.0,0.0,0.0,1.0,2.0,' negativ
+2.0,0.0,0.0,1.0,1.0,' negativ
+1.0,0.0,0.0,0.0,1.0,' negativ
+0.0,2.0,2.0,1.0,1.0,' positiv
+0.0,2.0,2.0,2.0,0.0,' positiv
+0.0,1.0,2.0,0.0,1.0,' positiv
+0.0,2.0,2.0,0.0,0.0,' positiv
+0.0,2.0,1.0,2.0,0.0,' positiv
+1.0,1.0,2.0,1.0,0.0,' positiv
+0.0,2.0,2.0,0.0,1.0,' positiv
+2.0,0.0,0.0,2.0,2.0,' negativ
+2.0,0.0,0.0,2.0,2.0,' negativ
+2.0,0.0,1.0,2.0,2.0,' negativ
+2.0,0.0,0.0,2.0,2.0,' negativ
+2.0,0.0,0.0,2.0,2.0,' negativ
+2.0,0.0,1.0,2.0,2.0,' negativ
+2.0,2.0,2.0,1.0,0.0,' positiv
+2.0,2.0,1.0,0.0,0.0,' positiv
+2.0,2.0,1.0,1.0,0.0,' positiv
+0.0,2.0,2.0,1.0,1.0,' positiv
+0.0,2.0,2.0,0.0,1.0,' positiv
+2.0,2.0,2.0,0.0,1.0,' positiv
+1.0,2.0,2.0,0.0,1.0,' positiv
+0.0,1.0,1.0,2.0,0.0,' positiv
+0.0,2.0,2.0,0.0,1.0,' positiv
+0.0,1.0,1.0,0.0,1.0,' positiv
+1.0,2.0,0.0,0.0,1.0,' positiv
+0.0,2.0,2.0,1.0,0.0,' positiv
+1.0,1.0,2.0,0.0,0.0,' positiv
+0.0,2.0,2.0,0.0,0.0,' positiv
+1.0,1.0,2.0,0.0,0.0,' positiv
+0.0,1.0,2.0,0.0,0.0,' positiv
+0.0,1.0,2.0,2.0,1.0,' positiv
+0.0,2.0,1.0,1.0,0.0,' positiv
+0.0,2.0,2.0,1.0,0.0,' positiv
+1.0,2.0,2.0,2.0,1.0,' positiv
+1.0,2.0,1.0,2.0,1.0,' positiv
+0.0,2.0,2.0,1.0,0.0,' positiv
+1.0,1.0,1.0,0.0,0.0,' positiv
+2.0,2.0,2.0,1.0,1.0,' positiv
+0.0,2.0,2.0,0.0,1.0,' positiv
+0.0,1.0,1.0,1.0,0.0,' positiv
+1.0,1.0,2.0,1.0,0.0,' positiv
+0.0,1.0,1.0,0.0,0.0,' positiv
