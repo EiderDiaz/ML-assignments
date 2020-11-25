@@ -11,14 +11,16 @@
 
 @relation EFQ1abalone-17_vs_7-8-9-10-5-1tst.dat.csv
 
-@attribute attr0 {0,1}
-@attribute attr1 {0,1,2}
-@attribute attr2 {0,1,2}
-@attribute attr3 {0,1,2}
-@attribute attr4 {0,1,2}
-@attribute attr5 {0,1,2}
-@attribute attr6 {0,1,2}
-@attribute attr7 {0}
+
+
+@attribute attr0 {0.0,1.0}
+@attribute attr1 {0.0,1.0,2.0}
+@attribute attr2 {0.0,1.0,2.0}
+@attribute attr3 {0.0,1.0,2.0}
+@attribute attr4 {0.0,1.0,2.0}
+@attribute attr5 {0.0,1.0,2.0}
+@attribute attr6 {0.0,1.0,2.0}
+@attribute attr7 {0.0}
 @attribute Class {' negative',' positive'}
 
 @data
