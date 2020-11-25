@@ -19,7 +19,7 @@
 @attribute attr5 numeric
 @attribute attr6 numeric
 @attribute attr7 numeric
-@attribute attrClass {' negative'}
+@attribute Class {' negative'}
 
 @data
 0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,' negative'
